@@ -1,0 +1,3 @@
+E:\Amazon ML Challenge\eda\05_pair_sims.py:22: DeprecationWarning: the default behavior of `how='horizontal'` for `concat` is deprecated and will require equal heights in the next breaking release. Use `how='horizontal_extend'` to keep the current behavior.
+(Deprecated in version 1.42.1)
+  neg.append(pl.concat([prep(a, "a_").with_columns(s1=pl.col("a_id")), prep(b, "b_").with_columns(rid=pl.col("b_id"))], how="horizontal"))

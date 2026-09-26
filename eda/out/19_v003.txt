@@ -1,0 +1,26 @@
+{
+  "version": "v003",
+  "name": "v003_all_v1_t0.5",
+  "created": "2026-09-26T07:01:11",
+  "model": "lgb_all_v1",
+  "threshold": 0.5,
+  "candidates": "c1",
+  "note": "strongly precision-leaning threshold",
+  "validator": "FAIL",
+  "local_val_f05": {
+    "India": 0.9842,
+    "US": 0.98663
+  },
+  "stats": {
+    "n_s1": 1732544,
+    "n_s1_with_match": 1641822,
+    "n_links": 5973351,
+    "n_queries": 9969521
+  },
+  "git_head": "fbc975a"
+}
+ML Challenge 2026 â€” submission validator
+  test dir: E:\Amazon ML Challenge\student_resource\dataset\test
+  required S1 entities: 1732544
+  matching_results.tsv: 1732544 rows (90722 empty, 1641822 non-empty).
+

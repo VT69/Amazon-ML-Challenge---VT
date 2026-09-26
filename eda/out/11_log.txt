@@ -1,0 +1,110 @@
+US prep 20 s 1.65GB
+{'country': 'US', 'method': 'NA2|20000|4', 'ms_per_q': 0.686, 'full_R_h': 1.18, 'R@1': 0.9485, 'R@5': 0.9757, 'R@10': 0.9814, 'R@20': 0.9856, 'R@50': 0.9906, 'R@50_noaddr': 0.8458} 1.32GB
+{'country': 'US', 'method': 'NA2|5000|4', 'ms_per_q': 0.481, 'full_R_h': 0.83, 'R@1': 0.9406, 'R@5': 0.9739, 'R@10': 0.9799, 'R@20': 0.9845, 'R@50': 0.99, 'R@50_noaddr': 0.8458} 1.33GB
+{'country': 'US', 'method': 'NAS2|20000|5', 'ms_per_q': 1.287, 'full_R_h': 2.21, 'R@1': 0.9526, 'R@5': 0.9781, 'R@10': 0.9835, 'R@20': 0.9878, 'R@50': 0.9923, 'R@50_noaddr': 0.8818} 1.36GB
+{'country': 'US', 'method': 'NAS2|5000|5', 'ms_per_q': 0.453, 'full_R_h': 0.78, 'R@1': 0.9458, 'R@5': 0.9765, 'R@10': 0.9823, 'R@20': 0.9869, 'R@50': 0.9919, 'R@50_noaddr': 0.8808} 1.37GB
+{'country': 'US', 'method': 'N_c3ns|20000|8', 'ms_per_q': 2.955, 'full_R_h': 5.08, 'R@1': 0.5011, 'R@5': 0.7033, 'R@10': 0.7506, 'R@20': 0.7942, 'R@50': 0.8562, 'R@50_noaddr': 0.8911} 1.48GB
+{'country': 'US', 'method': 'NS|None|0', 'ms_per_q': 0.774, 'full_R_h': 1.33, 'R@1': 0.4783, 'R@5': 0.6564, 'R@10': 0.6998, 'R@20': 0.7427, 'R@50': 0.8041, 'R@50_noaddr': 0.8921} 1.37GB
+{'country': 'US', 'method': 'U[10]+N_c3ns|20000|8[10] tau=0.0', 'trig_frac': 0.034, 'R_union': 0.987, 'cand_mean': 10.2}
+{'country': 'US', 'method': 'U[10]+N_c3ns|20000|8[10] tau=0.5', 'trig_frac': 0.114, 'R_union': 0.9891, 'cand_mean': 11.0}
+{'country': 'US', 'method': 'U[10]+N_c3ns|20000|8[10] tau=0.6', 'trig_frac': 0.189, 'R_union': 0.9897, 'cand_mean': 11.6}
+{'country': 'US', 'method': 'U[10]+N_c3ns|20000|8[10] tau=0.7', 'trig_frac': 0.318, 'R_union': 0.9898, 'cand_mean': 12.6}
+{'country': 'US', 'method': 'U[10]+N_c3ns|20000|8[10] tau=0.8', 'trig_frac': 0.508, 'R_union': 0.9898, 'cand_mean': 14.1}
+{'country': 'US', 'method': 'U[10]+N_c3ns|20000|8[10] tau=2.0', 'trig_frac': 1.0, 'R_union': 0.9898, 'cand_mean': 17.7}
+{'country': 'US', 'method': 'U[20]+N_c3ns|20000|8[10] tau=0.0', 'trig_frac': 0.034, 'R_union': 0.99, 'cand_mean': 20.2}
+{'country': 'US', 'method': 'U[20]+N_c3ns|20000|8[10] tau=0.5', 'trig_frac': 0.114, 'R_union': 0.9916, 'cand_mean': 20.9}
+{'country': 'US', 'method': 'U[20]+N_c3ns|20000|8[10] tau=0.6', 'trig_frac': 0.189, 'R_union': 0.9919, 'cand_mean': 21.5}
+{'country': 'US', 'method': 'U[20]+N_c3ns|20000|8[10] tau=0.7', 'trig_frac': 0.318, 'R_union': 0.992, 'cand_mean': 22.4}
+{'country': 'US', 'method': 'U[20]+N_c3ns|20000|8[10] tau=0.8', 'trig_frac': 0.508, 'R_union': 0.992, 'cand_mean': 23.8}
+{'country': 'US', 'method': 'U[20]+N_c3ns|20000|8[10] tau=2.0', 'trig_frac': 1.0, 'R_union': 0.992, 'cand_mean': 27.1}
+{'country': 'US', 'method': 'U[20]+N_c3ns|20000|8[20] tau=0.0', 'trig_frac': 0.034, 'R_union': 0.9911, 'cand_mean': 20.5}
+{'country': 'US', 'method': 'U[20]+N_c3ns|20000|8[20] tau=0.5', 'trig_frac': 0.114, 'R_union': 0.9928, 'cand_mean': 21.9}
+{'country': 'US', 'method': 'U[20]+N_c3ns|20000|8[20] tau=0.6', 'trig_frac': 0.189, 'R_union': 0.9931, 'cand_mean': 23.2}
+{'country': 'US', 'method': 'U[20]+N_c3ns|20000|8[20] tau=0.7', 'trig_frac': 0.318, 'R_union': 0.9932, 'cand_mean': 25.3}
+{'country': 'US', 'method': 'U[20]+N_c3ns|20000|8[20] tau=0.8', 'trig_frac': 0.508, 'R_union': 0.9932, 'cand_mean': 28.3}
+{'country': 'US', 'method': 'U[20]+N_c3ns|20000|8[20] tau=2.0', 'trig_frac': 1.0, 'R_union': 0.9932, 'cand_mean': 35.8}
+{'country': 'US', 'method': 'U[50]+N_c3ns|20000|8[20] tau=0.0', 'trig_frac': 0.034, 'R_union': 0.9943, 'cand_mean': 50.4}
+{'country': 'US', 'method': 'U[50]+N_c3ns|20000|8[20] tau=0.5', 'trig_frac': 0.114, 'R_union': 0.9954, 'cand_mean': 51.7}
+{'country': 'US', 'method': 'U[50]+N_c3ns|20000|8[20] tau=0.6', 'trig_frac': 0.189, 'R_union': 0.9956, 'cand_mean': 52.8}
+{'country': 'US', 'method': 'U[50]+N_c3ns|20000|8[20] tau=0.7', 'trig_frac': 0.318, 'R_union': 0.9956, 'cand_mean': 54.6}
+{'country': 'US', 'method': 'U[50]+N_c3ns|20000|8[20] tau=0.8', 'trig_frac': 0.508, 'R_union': 0.9956, 'cand_mean': 57.2}
+{'country': 'US', 'method': 'U[50]+N_c3ns|20000|8[20] tau=2.0', 'trig_frac': 1.0, 'R_union': 0.9956, 'cand_mean': 63.6}
+{'country': 'US', 'method': 'U[10]+NS|None|0[10] tau=0.0', 'trig_frac': 0.034, 'R_union': 0.9859, 'cand_mean': 10.2}
+{'country': 'US', 'method': 'U[10]+NS|None|0[10] tau=0.5', 'trig_frac': 0.114, 'R_union': 0.9859, 'cand_mean': 10.7}
+{'country': 'US', 'method': 'U[10]+NS|None|0[10] tau=0.6', 'trig_frac': 0.189, 'R_union': 0.9859, 'cand_mean': 11.1}
+{'country': 'US', 'method': 'U[10]+NS|None|0[10] tau=0.7', 'trig_frac': 0.318, 'R_union': 0.9859, 'cand_mean': 11.9}
+{'country': 'US', 'method': 'U[10]+NS|None|0[10] tau=0.8', 'trig_frac': 0.508, 'R_union': 0.9859, 'cand_mean': 13.0}
+{'country': 'US', 'method': 'U[10]+NS|None|0[10] tau=2.0', 'trig_frac': 1.0, 'R_union': 0.9859, 'cand_mean': 15.8}
+{'country': 'US', 'method': 'U[20]+NS|None|0[10] tau=0.0', 'trig_frac': 0.034, 'R_union': 0.9889, 'cand_mean': 20.1}
+{'country': 'US', 'method': 'U[20]+NS|None|0[10] tau=0.5', 'trig_frac': 0.114, 'R_union': 0.989, 'cand_mean': 20.5}
+{'country': 'US', 'method': 'U[20]+NS|None|0[10] tau=0.6', 'trig_frac': 0.189, 'R_union': 0.989, 'cand_mean': 20.9}
+{'country': 'US', 'method': 'U[20]+NS|None|0[10] tau=0.7', 'trig_frac': 0.318, 'R_union': 0.989, 'cand_mean': 21.5}
+{'country': 'US', 'method': 'U[20]+NS|None|0[10] tau=0.8', 'trig_frac': 0.508, 'R_union': 0.989, 'cand_mean': 22.4}
+{'country': 'US', 'method': 'U[20]+NS|None|0[10] tau=2.0', 'trig_frac': 1.0, 'R_union': 0.989, 'cand_mean': 24.5}
+{'country': 'US', 'method': 'U[20]+NS|None|0[20] tau=0.0', 'trig_frac': 0.034, 'R_union': 0.9899, 'cand_mean': 20.4}
+{'country': 'US', 'method': 'U[20]+NS|None|0[20] tau=0.5', 'trig_frac': 0.114, 'R_union': 0.9899, 'cand_mean': 21.3}
+{'country': 'US', 'method': 'U[20]+NS|None|0[20] tau=0.6', 'trig_frac': 0.189, 'R_union': 0.9899, 'cand_mean': 22.1}
+{'country': 'US', 'method': 'U[20]+NS|None|0[20] tau=0.7', 'trig_frac': 0.318, 'R_union': 0.9899, 'cand_mean': 23.6}
+{'country': 'US', 'method': 'U[20]+NS|None|0[20] tau=0.8', 'trig_frac': 0.508, 'R_union': 0.9899, 'cand_mean': 25.7}
+{'country': 'US', 'method': 'U[20]+NS|None|0[20] tau=2.0', 'trig_frac': 1.0, 'R_union': 0.9899, 'cand_mean': 31.3}
+{'country': 'US', 'method': 'U[50]+NS|None|0[20] tau=0.0', 'trig_frac': 0.034, 'R_union': 0.9933, 'cand_mean': 50.2}
+{'country': 'US', 'method': 'U[50]+NS|None|0[20] tau=0.5', 'trig_frac': 0.114, 'R_union': 0.9934, 'cand_mean': 50.9}
+{'country': 'US', 'method': 'U[50]+NS|None|0[20] tau=0.6', 'trig_frac': 0.189, 'R_union': 0.9934, 'cand_mean': 51.5}
+{'country': 'US', 'method': 'U[50]+NS|None|0[20] tau=0.7', 'trig_frac': 0.318, 'R_union': 0.9934, 'cand_mean': 52.5}
+{'country': 'US', 'method': 'U[50]+NS|None|0[20] tau=0.8', 'trig_frac': 0.508, 'R_union': 0.9934, 'cand_mean': 54.0}
+{'country': 'US', 'method': 'U[50]+NS|None|0[20] tau=2.0', 'trig_frac': 1.0, 'R_union': 0.9934, 'cand_mean': 57.5}
+India prep 27 s 1.34GB
+{'country': 'India', 'method': 'NA2|20000|4', 'ms_per_q': 1.132, 'full_R_h': 1.3, 'R@1': 0.8762, 'R@5': 0.9255, 'R@10': 0.9386, 'R@20': 0.9514, 'R@50': 0.9642, 'R@50_noaddr': 0.7392} 1.37GB
+{'country': 'India', 'method': 'NA2|5000|4', 'ms_per_q': 0.469, 'full_R_h': 0.54, 'R@1': 0.8648, 'R@5': 0.921, 'R@10': 0.9355, 'R@20': 0.9487, 'R@50': 0.9623, 'R@50_noaddr': 0.7392} 1.38GB
+{'country': 'India', 'method': 'NAS2|20000|5', 'ms_per_q': 1.303, 'full_R_h': 1.5, 'R@1': 0.9003, 'R@5': 0.9445, 'R@10': 0.9564, 'R@20': 0.9665, 'R@50': 0.9769, 'R@50_noaddr': 0.8171} 1.40GB
+{'country': 'India', 'method': 'NAS2|5000|5', 'ms_per_q': 0.512, 'full_R_h': 0.59, 'R@1': 0.8855, 'R@5': 0.9375, 'R@10': 0.9514, 'R@20': 0.963, 'R@50': 0.9738, 'R@50_noaddr': 0.8096} 1.41GB
+{'country': 'India', 'method': 'N_c3ns|20000|8', 'ms_per_q': 2.113, 'full_R_h': 2.43, 'R@1': 0.4088, 'R@5': 0.5562, 'R@10': 0.5944, 'R@20': 0.6344, 'R@50': 0.7157, 'R@50_noaddr': 0.8937} 1.44GB
+{'country': 'India', 'method': 'NS|None|0', 'ms_per_q': 0.632, 'full_R_h': 0.73, 'R@1': 0.3938, 'R@5': 0.5302, 'R@10': 0.5709, 'R@20': 0.6172, 'R@50': 0.7195, 'R@50_noaddr': 0.9172} 1.40GB
+{'country': 'India', 'method': 'U[10]+N_c3ns|20000|8[10] tau=0.0', 'trig_frac': 0.028, 'R_union': 0.9616, 'cand_mean': 10.2}
+{'country': 'India', 'method': 'U[10]+N_c3ns|20000|8[10] tau=0.5', 'trig_frac': 0.157, 'R_union': 0.9655, 'cand_mean': 11.4}
+{'country': 'India', 'method': 'U[10]+N_c3ns|20000|8[10] tau=0.6', 'trig_frac': 0.246, 'R_union': 0.9677, 'cand_mean': 12.2}
+{'country': 'India', 'method': 'U[10]+N_c3ns|20000|8[10] tau=0.7', 'trig_frac': 0.359, 'R_union': 0.9683, 'cand_mean': 13.2}
+{'country': 'India', 'method': 'U[10]+N_c3ns|20000|8[10] tau=0.8', 'trig_frac': 0.516, 'R_union': 0.9685, 'cand_mean': 14.6}
+{'country': 'India', 'method': 'U[10]+N_c3ns|20000|8[10] tau=2.0', 'trig_frac': 1.0, 'R_union': 0.9685, 'cand_mean': 18.6}
+{'country': 'India', 'method': 'U[20]+N_c3ns|20000|8[10] tau=0.0', 'trig_frac': 0.028, 'R_union': 0.9698, 'cand_mean': 20.2}
+{'country': 'India', 'method': 'U[20]+N_c3ns|20000|8[10] tau=0.5', 'trig_frac': 0.157, 'R_union': 0.9726, 'cand_mean': 21.4}
+{'country': 'India', 'method': 'U[20]+N_c3ns|20000|8[10] tau=0.6', 'trig_frac': 0.246, 'R_union': 0.974, 'cand_mean': 22.2}
+{'country': 'India', 'method': 'U[20]+N_c3ns|20000|8[10] tau=0.7', 'trig_frac': 0.359, 'R_union': 0.9743, 'cand_mean': 23.1}
+{'country': 'India', 'method': 'U[20]+N_c3ns|20000|8[10] tau=0.8', 'trig_frac': 0.516, 'R_union': 0.9744, 'cand_mean': 24.4}
+{'country': 'India', 'method': 'U[20]+N_c3ns|20000|8[10] tau=2.0', 'trig_frac': 1.0, 'R_union': 0.9744, 'cand_mean': 28.2}
+{'country': 'India', 'method': 'U[20]+N_c3ns|20000|8[20] tau=0.0', 'trig_frac': 0.028, 'R_union': 0.9707, 'cand_mean': 20.4}
+{'country': 'India', 'method': 'U[20]+N_c3ns|20000|8[20] tau=0.5', 'trig_frac': 0.157, 'R_union': 0.9738, 'cand_mean': 22.9}
+{'country': 'India', 'method': 'U[20]+N_c3ns|20000|8[20] tau=0.6', 'trig_frac': 0.246, 'R_union': 0.9754, 'cand_mean': 24.5}
+{'country': 'India', 'method': 'U[20]+N_c3ns|20000|8[20] tau=0.7', 'trig_frac': 0.359, 'R_union': 0.9756, 'cand_mean': 26.5}
+{'country': 'India', 'method': 'U[20]+N_c3ns|20000|8[20] tau=0.8', 'trig_frac': 0.516, 'R_union': 0.9758, 'cand_mean': 29.3}
+{'country': 'India', 'method': 'U[20]+N_c3ns|20000|8[20] tau=2.0', 'trig_frac': 1.0, 'R_union': 0.9758, 'cand_mean': 37.5}
+{'country': 'India', 'method': 'U[50]+N_c3ns|20000|8[20] tau=0.0', 'trig_frac': 0.028, 'R_union': 0.9793, 'cand_mean': 50.4}
+{'country': 'India', 'method': 'U[50]+N_c3ns|20000|8[20] tau=0.5', 'trig_frac': 0.157, 'R_union': 0.9812, 'cand_mean': 52.7}
+{'country': 'India', 'method': 'U[50]+N_c3ns|20000|8[20] tau=0.6', 'trig_frac': 0.246, 'R_union': 0.9821, 'cand_mean': 54.2}
+{'country': 'India', 'method': 'U[50]+N_c3ns|20000|8[20] tau=0.7', 'trig_frac': 0.359, 'R_union': 0.9823, 'cand_mean': 56.1}
+{'country': 'India', 'method': 'U[50]+N_c3ns|20000|8[20] tau=0.8', 'trig_frac': 0.516, 'R_union': 0.9825, 'cand_mean': 58.7}
+{'country': 'India', 'method': 'U[50]+N_c3ns|20000|8[20] tau=2.0', 'trig_frac': 1.0, 'R_union': 0.9825, 'cand_mean': 66.2}
+{'country': 'India', 'method': 'U[10]+NS|None|0[10] tau=0.0', 'trig_frac': 0.028, 'R_union': 0.9612, 'cand_mean': 10.2}
+{'country': 'India', 'method': 'U[10]+NS|None|0[10] tau=0.5', 'trig_frac': 0.157, 'R_union': 0.9626, 'cand_mean': 11.1}
+{'country': 'India', 'method': 'U[10]+NS|None|0[10] tau=0.6', 'trig_frac': 0.246, 'R_union': 0.9634, 'cand_mean': 11.8}
+{'country': 'India', 'method': 'U[10]+NS|None|0[10] tau=0.7', 'trig_frac': 0.359, 'R_union': 0.9636, 'cand_mean': 12.6}
+{'country': 'India', 'method': 'U[10]+NS|None|0[10] tau=0.8', 'trig_frac': 0.516, 'R_union': 0.9637, 'cand_mean': 13.7}
+{'country': 'India', 'method': 'U[10]+NS|None|0[10] tau=2.0', 'trig_frac': 1.0, 'R_union': 0.9637, 'cand_mean': 17.1}
+{'country': 'India', 'method': 'U[20]+NS|None|0[10] tau=0.0', 'trig_frac': 0.028, 'R_union': 0.9695, 'cand_mean': 20.1}
+{'country': 'India', 'method': 'U[20]+NS|None|0[10] tau=0.5', 'trig_frac': 0.157, 'R_union': 0.9702, 'cand_mean': 21.0}
+{'country': 'India', 'method': 'U[20]+NS|None|0[10] tau=0.6', 'trig_frac': 0.246, 'R_union': 0.9707, 'cand_mean': 21.5}
+{'country': 'India', 'method': 'U[20]+NS|None|0[10] tau=0.7', 'trig_frac': 0.359, 'R_union': 0.9708, 'cand_mean': 22.3}
+{'country': 'India', 'method': 'U[20]+NS|None|0[10] tau=0.8', 'trig_frac': 0.516, 'R_union': 0.9708, 'cand_mean': 23.2}
+{'country': 'India', 'method': 'U[20]+NS|None|0[10] tau=2.0', 'trig_frac': 1.0, 'R_union': 0.9708, 'cand_mean': 26.1}
+{'country': 'India', 'method': 'U[20]+NS|None|0[20] tau=0.0', 'trig_frac': 0.028, 'R_union': 0.9706, 'cand_mean': 20.3}
+{'country': 'India', 'method': 'U[20]+NS|None|0[20] tau=0.5', 'trig_frac': 0.157, 'R_union': 0.9717, 'cand_mean': 22.2}
+{'country': 'India', 'method': 'U[20]+NS|None|0[20] tau=0.6', 'trig_frac': 0.246, 'R_union': 0.9721, 'cand_mean': 23.4}
+{'country': 'India', 'method': 'U[20]+NS|None|0[20] tau=0.7', 'trig_frac': 0.359, 'R_union': 0.9722, 'cand_mean': 25.0}
+{'country': 'India', 'method': 'U[20]+NS|None|0[20] tau=0.8', 'trig_frac': 0.516, 'R_union': 0.9724, 'cand_mean': 27.2}
+{'country': 'India', 'method': 'U[20]+NS|None|0[20] tau=2.0', 'trig_frac': 1.0, 'R_union': 0.9724, 'cand_mean': 33.9}
+{'country': 'India', 'method': 'U[50]+NS|None|0[20] tau=0.0', 'trig_frac': 0.028, 'R_union': 0.9791, 'cand_mean': 50.2}
+{'country': 'India', 'method': 'U[50]+NS|None|0[20] tau=0.5', 'trig_frac': 0.157, 'R_union': 0.9795, 'cand_mean': 51.7}
+{'country': 'India', 'method': 'U[50]+NS|None|0[20] tau=0.6', 'trig_frac': 0.246, 'R_union': 0.9796, 'cand_mean': 52.7}
+{'country': 'India', 'method': 'U[50]+NS|None|0[20] tau=0.7', 'trig_frac': 0.359, 'R_union': 0.9797, 'cand_mean': 54.0}
+{'country': 'India', 'method': 'U[50]+NS|None|0[20] tau=0.8', 'trig_frac': 0.516, 'R_union': 0.9798, 'cand_mean': 55.8}
+{'country': 'India', 'method': 'U[50]+NS|None|0[20] tau=2.0', 'trig_frac': 1.0, 'R_union': 0.9798, 'cand_mean': 61.0}

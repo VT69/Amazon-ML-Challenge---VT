@@ -1,0 +1,13 @@
+India S1 side 45 s 1.07GB
+  India_s2_000.parquet feat_val: q=6349 pairs=143356 pos=4557
+  India_s2_000.parquet feat_train: q=7851 pairs=177201 pos=5582
+  India_s2_000.parquet 63s 1.55GB
+  India_s2_001.parquet feat_val: q=6353 pairs=143257 pos=4515
+  India_s2_001.parquet feat_train: q=7901 pairs=178330 pos=5572
+  India_s2_001.parquet 46s 1.56GB
+  India_s2_002.parquet feat_val: q=6373 pairs=144409 pos=4493
+  India_s2_002.parquet feat_train: q=7771 pairs=176346 pos=5565
+  India_s2_002.parquet 47s 1.57GB
+  India_s2_003.parquet feat_val: q=6209 pairs=140274 pos=4445
+  India_s2_003.parquet feat_train: q=7851 pairs=177286 pos=5639
+  India_s2_003.parquet 49s 1.56GB

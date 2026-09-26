@@ -1,0 +1,7 @@
+1
+2
+3
+E:\Amazon ML Challenge\eda\07_keys.py:25: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  t = (k.select("country", pl.col(col).str.split(" ").list.unique().alias("t")).explode("t")
+ntok 1482991
+atok 745900

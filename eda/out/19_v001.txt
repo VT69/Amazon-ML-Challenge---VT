@@ -1,0 +1,34 @@
+candidate bucket 0 216706
+candidate bucket 1 216288
+candidate bucket 2 216481
+candidate bucket 3 216773
+candidate bucket 4 216956
+candidate bucket 5 216744
+candidate bucket 6 216833
+candidate bucket 7 215763
+{
+  "version": "v001",
+  "name": "v001_all_v1_t0.05",
+  "created": "2026-09-26T04:35:33",
+  "model": "lgb_all_v1",
+  "threshold": 0.05,
+  "candidates": "c1",
+  "note": "first full model, best local threshold",
+  "validator": "FAIL",
+  "local_val_f05": {
+    "US": 0.99038,
+    "India": 0.98774
+  },
+  "stats": {
+    "n_s1": 1732544,
+    "n_s1_with_match": 1664287,
+    "n_links": 6516331,
+    "n_queries": 9969521
+  },
+  "git_head": "fbc975a"
+}
+ML Challenge 2026 â€” submission validator
+  test dir: E:\Amazon ML Challenge\student_resource\dataset\test
+  required S1 entities: 1732544
+  matching_results.tsv: 1732544 rows (68257 empty, 1664287 non-empty).
+

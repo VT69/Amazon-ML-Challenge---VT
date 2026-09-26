@@ -1,0 +1,32 @@
+{
+  "version": "v007",
+  "name": "v007_all_v1_t0.8_France0.9",
+  "created": "2026-09-26T11:26:31",
+  "model": "lgb_all_v1",
+  "threshold": 0.8,
+  "threshold_by_country": "France=0.9",
+  "candidates": "c1",
+  "note": "France stricter probe (US/India 0.8)",
+  "validator": "PASS",
+  "local_val_f05": {
+    "US": 0.98163,
+    "India": 0.97741,
+    "testlike": 0.97987
+  },
+  "stats": {
+    "n_s1": 1732544,
+    "n_s1_with_match": 1632792,
+    "n_links": 5751603,
+    "n_queries": 9969521
+  },
+  "git_head": "fbc975a"
+}
+ML Challenge 2026 â€” submission validator
+  test dir: E:\Amazon ML Challenge\student_resource\dataset\test
+  required S1 entities: 1732544
+  valid S2/S3 match IDs: 9969589
+  matching_results.tsv: 1732544 rows (99752 empty, 1632792 non-empty).
+
+WARNING: E:\Amazon ML Challenge\submissions\v007_all_v1_t0.8_France0.9\_skip_ not found â€” skipping candidate_pairs.tsv checks. It is optional here, but your final submission zip must include output/candidate_pairs.tsv.
+PASS â€” no blocking issues found. Safe to submit.
+

@@ -1,0 +1,8 @@
+# large data / generated artefacts
+*.zip
+.tmp/
+student_resource/dataset/
+eda/data/
+eda/__pycache__/
+eda/prof.out
+submissions/

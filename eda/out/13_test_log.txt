@@ -1,0 +1,46 @@
+France index built 7 s 0.31GB
+France s2 chunk 0 q=250000 trig=0.22 cand/q=21.6 0.78 ms/q 0.81GB
+France s2 chunk 1 q=250000 trig=0.22 cand/q=21.6 0.82 ms/q 0.82GB
+France s2 chunk 2 q=203378 trig=0.22 cand/q=21.6 0.77 ms/q 0.78GB
+France s3 chunk 0 q=250000 trig=0.22 cand/q=21.6 0.91 ms/q 0.86GB
+France s3 chunk 1 q=250000 trig=0.22 cand/q=21.6 1.08 ms/q 0.76GB
+France s3 chunk 2 q=231615 trig=0.21 cand/q=21.6 1.01 ms/q 0.74GB
+India index built 25 s 0.89GB
+India s2 chunk 0 q=250000 trig=0.26 cand/q=22.3 1.56 ms/q 0.54GB
+India s2 chunk 1 q=250000 trig=0.26 cand/q=22.3 1.28 ms/q 0.70GB
+India s2 chunk 2 q=250000 trig=0.26 cand/q=22.3 1.19 ms/q 0.72GB
+India s2 chunk 3 q=250000 trig=0.26 cand/q=22.3 1.15 ms/q 0.78GB
+India s2 chunk 4 q=250000 trig=0.26 cand/q=22.3 1.23 ms/q 0.74GB
+India s2 chunk 5 q=250000 trig=0.26 cand/q=22.3 1.24 ms/q 0.74GB
+India s2 chunk 6 q=250000 trig=0.26 cand/q=22.3 2.07 ms/q 0.70GB
+India s2 chunk 7 q=250000 trig=0.26 cand/q=22.3 1.48 ms/q 0.70GB
+India s2 chunk 8 q=250000 trig=0.26 cand/q=22.3 1.64 ms/q 0.73GB
+India s2 chunk 9 q=62565 trig=0.26 cand/q=22.3 1.02 ms/q 0.48GB
+India s3 chunk 0 q=250000 trig=0.35 cand/q=23.0 1.48 ms/q 1.22GB
+India s3 chunk 1 q=250000 trig=0.35 cand/q=23.0 1.29 ms/q 1.23GB
+India s3 chunk 2 q=250000 trig=0.35 cand/q=23.0 1.29 ms/q 1.23GB
+India s3 chunk 3 q=250000 trig=0.35 cand/q=23.0 1.16 ms/q 1.23GB
+India s3 chunk 4 q=250000 trig=0.35 cand/q=23.0 1.45 ms/q 1.11GB
+India s3 chunk 5 q=250000 trig=0.35 cand/q=23.0 1.22 ms/q 1.11GB
+India s3 chunk 6 q=250000 trig=0.35 cand/q=23.0 1.01 ms/q 1.12GB
+India s3 chunk 7 q=250000 trig=0.35 cand/q=23.0 1.04 ms/q 1.13GB
+India s3 chunk 8 q=250000 trig=0.35 cand/q=23.0 1.02 ms/q 1.14GB
+India s3 chunk 9 q=155000 trig=0.35 cand/q=23.0 1.01 ms/q 1.00GB
+US index built 6 s 0.80GB
+US s2 chunk 0 q=250000 trig=0.23 cand/q=21.7 0.77 ms/q 1.04GB
+US s2 chunk 1 q=250000 trig=0.23 cand/q=21.7 0.76 ms/q 1.05GB
+US s2 chunk 2 q=250000 trig=0.23 cand/q=21.7 0.77 ms/q 1.06GB
+US s2 chunk 3 q=250000 trig=0.23 cand/q=21.7 0.78 ms/q 1.06GB
+US s2 chunk 4 q=250000 trig=0.23 cand/q=21.7 0.79 ms/q 1.05GB
+US s2 chunk 5 q=250000 trig=0.23 cand/q=21.7 0.75 ms/q 1.05GB
+US s2 chunk 6 q=250000 trig=0.23 cand/q=21.8 0.77 ms/q 1.05GB
+US s2 chunk 7 q=121330 trig=0.23 cand/q=21.7 0.78 ms/q 0.89GB
+US s3 chunk 0 q=250000 trig=0.22 cand/q=21.7 0.72 ms/q 1.10GB
+US s3 chunk 1 q=250000 trig=0.22 cand/q=21.7 0.73 ms/q 1.09GB
+US s3 chunk 2 q=250000 trig=0.22 cand/q=21.7 0.73 ms/q 1.10GB
+US s3 chunk 3 q=250000 trig=0.22 cand/q=21.7 0.72 ms/q 1.10GB
+US s3 chunk 4 q=250000 trig=0.22 cand/q=21.7 0.73 ms/q 1.09GB
+US s3 chunk 5 q=250000 trig=0.22 cand/q=21.7 0.73 ms/q 1.11GB
+US s3 chunk 6 q=250000 trig=0.22 cand/q=21.7 0.72 ms/q 1.10GB
+US s3 chunk 7 q=195701 trig=0.22 cand/q=21.7 0.73 ms/q 1.04GB
+done

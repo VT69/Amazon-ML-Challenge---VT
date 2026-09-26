@@ -1,0 +1,21 @@
+India index built 11 s 0.54GB
+India s2 chunk 0 q=250000 trig=0.24 cand/q=22.1 0.93 ms/q 1.22GB
+India s2 chunk 1 q=250000 trig=0.24 cand/q=22.1 0.88 ms/q 1.23GB
+India s2 chunk 2 q=250000 trig=0.24 cand/q=22.1 0.84 ms/q 1.26GB
+India s2 chunk 3 q=250000 trig=0.24 cand/q=22.1 0.81 ms/q 1.26GB
+India s2 chunk 4 q=250000 trig=0.24 cand/q=22.1 0.98 ms/q 1.25GB
+India s2 chunk 5 q=250000 trig=0.24 cand/q=22.1 0.96 ms/q 1.26GB
+India s2 chunk 6 q=250000 trig=0.24 cand/q=22.1 1.06 ms/q 1.06GB
+India s2 chunk 7 q=250000 trig=0.24 cand/q=22.1 1.09 ms/q 1.03GB
+India s2 chunk 8 q=17799 trig=0.24 cand/q=22.1 1.06 ms/q 0.98GB
+India s3 chunk 0 q=250000 trig=0.33 cand/q=22.8 1.26 ms/q 1.22GB
+India s3 chunk 1 q=250000 trig=0.33 cand/q=22.8 1.40 ms/q 1.22GB
+India s3 chunk 2 q=250000 trig=0.33 cand/q=22.8 1.28 ms/q 1.00GB
+India s3 chunk 3 q=250000 trig=0.33 cand/q=22.8 1.70 ms/q 1.05GB
+India s3 chunk 4 q=250000 trig=0.33 cand/q=22.8 1.75 ms/q 0.95GB
+India s3 chunk 5 q=250000 trig=0.33 cand/q=22.8 1.49 ms/q 0.94GB
+India s3 chunk 6 q=250000 trig=0.32 cand/q=22.8 1.35 ms/q 0.96GB
+India s3 chunk 7 q=250000 trig=0.33 cand/q=22.8 1.47 ms/q 0.89GB
+India s3 chunk 8 q=115547 trig=0.33 cand/q=22.8 1.37 ms/q 0.71GB
+US index built 21 s 0.86GB
+done

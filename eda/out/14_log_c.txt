@@ -1,0 +1,104 @@
+India S1 side 45 s 1.05GB
+  India_s2_000.parquet feat_val: q=6349 pairs=143356 pos=4557
+  India_s2_000.parquet feat_train: q=7851 pairs=177134 pos=5679
+  India_s2_000.parquet 49s 1.57GB
+  India_s2_001.parquet feat_val: q=6353 pairs=143257 pos=4515
+  India_s2_001.parquet feat_train: q=7901 pairs=178288 pos=5617
+  India_s2_001.parquet 46s 1.60GB
+  India_s2_002.parquet feat_val: q=6373 pairs=144409 pos=4493
+  India_s2_002.parquet feat_train: q=7771 pairs=175711 pos=5571
+  India_s2_002.parquet 43s 1.59GB
+  India_s2_003.parquet feat_val: q=6209 pairs=140274 pos=4445
+  India_s2_003.parquet feat_train: q=7851 pairs=177148 pos=5674
+  India_s2_003.parquet 44s 1.60GB
+  India_s2_004.parquet feat_val: q=6340 pairs=143235 pos=4484
+  India_s2_004.parquet feat_train: q=7745 pairs=175065 pos=5499
+  India_s2_004.parquet 41s 1.62GB
+  India_s2_005.parquet feat_val: q=6258 pairs=141569 pos=4399
+  India_s2_005.parquet feat_train: q=7843 pairs=176979 pos=5595
+  India_s2_005.parquet 43s 1.61GB
+  India_s2_006.parquet feat_val: q=6269 pairs=141647 pos=4532
+  India_s2_006.parquet feat_train: q=7889 pairs=178537 pos=5625
+  India_s2_006.parquet 32s 1.65GB
+  India_s2_007.parquet feat_val: q=6330 pairs=142623 pos=4527
+  India_s2_007.parquet feat_train: q=7822 pairs=176880 pos=5600
+  India_s2_007.parquet 43s 1.60GB
+  India_s2_008.parquet feat_val: q=428 pairs=9723 pos=289
+  India_s2_008.parquet feat_train: q=539 pairs=12201 pos=398
+  India_s2_008.parquet 26s 1.19GB
+  India_s3_000.parquet feat_val: q=6325 pairs=145422 pos=4654
+  India_s3_000.parquet feat_train: q=7819 pairs=179846 pos=5668
+  India_s3_000.parquet 41s 1.62GB
+  India_s3_001.parquet feat_val: q=6437 pairs=148187 pos=4641
+  India_s3_001.parquet feat_train: q=7705 pairs=177841 pos=5646
+  India_s3_001.parquet 41s 1.64GB
+  India_s3_002.parquet feat_val: q=6191 pairs=142417 pos=4444
+  India_s3_002.parquet feat_train: q=7846 pairs=181078 pos=5683
+  India_s3_002.parquet 41s 1.62GB
+  India_s3_003.parquet feat_val: q=6130 pairs=141413 pos=4411
+  India_s3_003.parquet feat_train: q=7808 pairs=179790 pos=5622
+  India_s3_003.parquet 43s 1.63GB
+  India_s3_004.parquet feat_val: q=6128 pairs=141262 pos=4474
+  India_s3_004.parquet feat_train: q=7825 pairs=180228 pos=5652
+  India_s3_004.parquet 42s 1.63GB
+  India_s3_005.parquet feat_val: q=6353 pairs=146661 pos=4563
+  India_s3_005.parquet feat_train: q=7826 pairs=180160 pos=5671
+  India_s3_005.parquet 43s 1.64GB
+  India_s3_006.parquet feat_val: q=6235 pairs=144020 pos=4528
+  India_s3_006.parquet feat_train: q=7813 pairs=179501 pos=5735
+  India_s3_006.parquet 43s 1.62GB
+  India_s3_007.parquet feat_val: q=6375 pairs=147120 pos=4638
+  India_s3_007.parquet feat_train: q=7748 pairs=177790 pos=5559
+  India_s3_007.parquet 45s 1.64GB
+  India_s3_008.parquet feat_val: q=2795 pairs=64542 pos=2006
+  India_s3_008.parquet feat_train: q=3610 pairs=83234 pos=2611
+  India_s3_008.parquet 42s 1.39GB
+US S1 side 76 s 1.93GB
+  US_s2_000.parquet feat_val: q=6198 pairs=139404 pos=4563
+  US_s2_000.parquet feat_train: q=7874 pairs=177191 pos=5721
+  US_s2_000.parquet 148s 1.42GB
+  US_s2_001.parquet feat_val: q=6440 pairs=144829 pos=4675
+  US_s2_001.parquet feat_train: q=7801 pairs=174894 pos=5712
+  US_s2_001.parquet 63s 1.46GB
+  US_s2_002.parquet feat_val: q=6260 pairs=140874 pos=4534
+  US_s2_002.parquet feat_train: q=7810 pairs=176093 pos=5724
+  US_s2_002.parquet 53s 1.46GB
+  US_s2_003.parquet feat_val: q=6224 pairs=140417 pos=4490
+  US_s2_003.parquet feat_train: q=7852 pairs=177012 pos=5651
+  US_s2_003.parquet 50s 1.49GB
+  US_s2_004.parquet feat_val: q=6355 pairs=143137 pos=4637
+  US_s2_004.parquet feat_train: q=7821 pairs=175563 pos=5764
+  US_s2_004.parquet 51s 1.48GB
+  US_s2_005.parquet feat_val: q=6362 pairs=142854 pos=4615
+  US_s2_005.parquet feat_train: q=7852 pairs=176618 pos=5679
+  US_s2_005.parquet 99s 1.46GB
+  US_s2_006.parquet feat_val: q=6300 pairs=142178 pos=4598
+  US_s2_006.parquet feat_train: q=7847 pairs=176403 pos=5729
+  US_s2_006.parquet 84s 1.47GB
+  US_s2_007.parquet feat_val: q=6372 pairs=142977 pos=4684
+  US_s2_007.parquet feat_train: q=7775 pairs=174612 pos=5700
+  US_s2_007.parquet 61s 1.50GB
+  US_s2_008.parquet feat_val: q=6311 pairs=141386 pos=4622
+  US_s2_008.parquet feat_train: q=7759 pairs=173947 pos=5650
+  US_s2_008.parquet 67s 1.47GB
+  US_s2_009.parquet feat_val: q=6196 pairs=138775 pos=4523
+  US_s2_009.parquet feat_train: q=7844 pairs=176429 pos=5689
+  US_s2_009.parquet 58s 1.46GB
+  US_s2_010.parquet feat_val: q=6407 pairs=144114 pos=4667
+  US_s2_010.parquet feat_train: q=7788 pairs=175315 pos=5654
+  US_s2_010.parquet 92s 1.48GB
+  US_s2_011.parquet feat_val: q=6239 pairs=139539 pos=4654
+  US_s2_011.parquet feat_train: q=7770 pairs=174674 pos=5646
+  US_s2_011.parquet 81s 1.49GB
+  US_s2_012.parquet feat_val: q=457 pairs=10317 pos=353
+  US_s2_012.parquet feat_train: q=524 pairs=11867 pos=363
+  US_s2_012.parquet 52s 1.04GB
+  US_s3_000.parquet feat_val: q=6271 pairs=139856 pos=4625
+  US_s3_000.parquet feat_train: q=7796 pairs=174280 pos=5775
+  US_s3_000.parquet 82s 1.47GB
+  US_s3_001.parquet feat_val: q=6353 pairs=142175 pos=4763
+  US_s3_001.parquet feat_train: q=7877 pairs=176582 pos=5832
+  US_s3_001.parquet 93s 1.46GB
+  US_s3_002.parquet feat_val: q=6351 pairs=142091 pos=4716
+  US_s3_002.parquet feat_train: q=7749 pairs=173561 pos=5744
+  US_s3_002.parquet 97s 1.48GB

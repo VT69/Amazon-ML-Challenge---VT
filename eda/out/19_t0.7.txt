@@ -1,0 +1,31 @@
+{
+  "version": "v004",
+  "name": "v004_all_v1_t0.7",
+  "created": "2026-09-26T10:44:11",
+  "model": "lgb_all_v1",
+  "threshold": 0.7,
+  "candidates": "c1",
+  "note": "threshold probe above 0.5 (LB rose 0.904->0.936->0.955 as t went 0.05->0.2->0.5)",
+  "validator": "PASS",
+  "local_val_f05": {
+    "US": 0.98392,
+    "India": 0.98057,
+    "testlike": 0.98249
+  },
+  "stats": {
+    "n_s1": 1732544,
+    "n_s1_with_match": 1636828,
+    "n_links": 5849238,
+    "n_queries": 9969521
+  },
+  "git_head": "fbc975a"
+}
+ML Challenge 2026 â€” submission validator
+  test dir: E:\Amazon ML Challenge\student_resource\dataset\test
+  required S1 entities: 1732544
+  valid S2/S3 match IDs: 9969589
+  matching_results.tsv: 1732544 rows (95716 empty, 1636828 non-empty).
+
+WARNING: E:\Amazon ML Challenge\submissions\v004_all_v1_t0.7\_skip_ not found â€” skipping candidate_pairs.tsv checks. It is optional here, but your final submission zip must include output/candidate_pairs.tsv.
+PASS â€” no blocking issues found. Safe to submit.
+

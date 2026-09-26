@@ -1,0 +1,123 @@
+== mean of similarity by group (y, src, country)
+shape: (8, 22)
+┌─────┬─────┬───────┬───────┬────────┬─────────┬─────────┬─────────┬───────────┬────────┬─────────────┬───────┬───────┬───────┬───────┬───────┬────────┬───────┬───────┬──────────┬────────────────┬────────────────┐
+│ y   ┆ src ┆ a_c   ┆ len   ┆ raw_eq ┆ fold_eq ┆ norm_eq ┆ core_eq ┆ tokset_eq ┆ n_jacc ┆ n_core_jacc ┆ n_3g  ┆ n_lev ┆ n_jw  ┆ n_tsr ┆ n_pr  ┆ a_jacc ┆ a_3g  ┆ a_tsr ┆ a_num_eq ┆ a_first_num_eq ┆ b_addr_missing │
+│ --- ┆ --- ┆ ---   ┆ ---   ┆ ---    ┆ ---     ┆ ---     ┆ ---     ┆ ---       ┆ ---    ┆ ---         ┆ ---   ┆ ---   ┆ ---   ┆ ---   ┆ ---   ┆ ---    ┆ ---   ┆ ---   ┆ ---      ┆ ---            ┆ ---            │
+│ i32 ┆ str ┆ str   ┆ u32   ┆ f64    ┆ f64     ┆ f64     ┆ f64     ┆ f64       ┆ f64    ┆ f64         ┆ f64   ┆ f64   ┆ f64   ┆ f64   ┆ f64   ┆ f64    ┆ f64   ┆ f64   ┆ f64      ┆ f64            ┆ f64            │
+╞═════╪═════╪═══════╪═══════╪════════╪═════════╪═════════╪═════════╪═══════════╪════════╪═════════════╪═══════╪═══════╪═══════╪═══════╪═══════╪════════╪═══════╪═══════╪══════════╪════════════════╪════════════════╡
+│ 0   ┆ S2  ┆ India ┆ 24426 ┆ 0.0    ┆ 0.0     ┆ 0.0     ┆ 0.0     ┆ 0.0       ┆ 0.05   ┆ 0.003       ┆ 0.069 ┆ 0.268 ┆ 0.584 ┆ 0.406 ┆ 0.488 ┆ 0.028  ┆ 0.042 ┆ 0.387 ┆ NaN      ┆ NaN            ┆ 0.03           │
+│ 0   ┆ S2  ┆ US    ┆ 24395 ┆ 0.0    ┆ 0.0     ┆ 0.0     ┆ 0.0     ┆ 0.0       ┆ 0.015  ┆ 0.003       ┆ 0.018 ┆ 0.194 ┆ 0.541 ┆ 0.331 ┆ 0.413 ┆ 0.018  ┆ 0.024 ┆ 0.357 ┆ 0.001    ┆ NaN            ┆ 0.036          │
+│ 0   ┆ S3  ┆ India ┆ 25574 ┆ 0.0    ┆ 0.0     ┆ 0.0     ┆ 0.0     ┆ 0.0       ┆ 0.059  ┆ 0.003       ┆ 0.074 ┆ 0.267 ┆ 0.583 ┆ 0.41  ┆ 0.492 ┆ 0.023  ┆ 0.033 ┆ 0.363 ┆ NaN      ┆ NaN            ┆ 0.031          │
+│ 0   ┆ S3  ┆ US    ┆ 25605 ┆ 0.0    ┆ 0.0     ┆ 0.0     ┆ 0.0     ┆ 0.0       ┆ 0.015  ┆ 0.002       ┆ 0.017 ┆ 0.193 ┆ 0.54  ┆ 0.329 ┆ 0.413 ┆ 0.014  ┆ 0.023 ┆ 0.355 ┆ 0.001    ┆ NaN            ┆ 0.035          │
+│ 1   ┆ S2  ┆ India ┆ 38798 ┆ 0.027  ┆ 0.063   ┆ 0.174   ┆ 0.43    ┆ 0.23      ┆ 0.525  ┆ 0.579       ┆ 0.597 ┆ 0.717 ┆ 0.882 ┆ 0.86  ┆ 0.868 ┆ 0.766  ┆ 0.76  ┆ 0.926 ┆ NaN      ┆ NaN            ┆ 0.039          │
+│ 1   ┆ S2  ┆ US    ┆ 57998 ┆ 0.061  ┆ 0.141   ┆ 0.3     ┆ 0.561   ┆ 0.373     ┆ 0.706  ┆ 0.768       ┆ 0.758 ┆ 0.793 ┆ 0.934 ┆ 0.931 ┆ 0.937 ┆ 0.764  ┆ 0.771 ┆ 0.921 ┆ 0.697    ┆ NaN            ┆ 0.049          │
+│ 1   ┆ S3  ┆ India ┆ 40934 ┆ 0.029  ┆ 0.067   ┆ 0.2     ┆ 0.448   ┆ 0.261     ┆ 0.581  ┆ 0.624       ┆ 0.635 ┆ 0.713 ┆ 0.879 ┆ 0.877 ┆ 0.887 ┆ 0.609  ┆ 0.609 ┆ 0.88  ┆ NaN      ┆ NaN            ┆ 0.04           │
+│ 1   ┆ S3  ┆ US    ┆ 62270 ┆ 0.059  ┆ 0.132   ┆ 0.306   ┆ 0.527   ┆ 0.377     ┆ 0.703  ┆ 0.75        ┆ 0.748 ┆ 0.779 ┆ 0.92  ┆ 0.934 ┆ 0.939 ┆ 0.565  ┆ 0.638 ┆ 0.866 ┆ 0.761    ┆ NaN            ┆ 0.046          │
+└─────┴─────┴───────┴───────┴────────┴─────────┴─────────┴─────────┴───────────┴────────┴─────────────┴───────┴───────┴───────┴───────┴───────┴────────┴───────┴───────┴──────────┴────────────────┴────────────────┘
+== quantiles (pos vs neg)
+n_jacc [(0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.14285714285714285, 0.25), (1, 0.0, 0.0, 0.5, 0.6666666666666666, 1.0, 1.0, 1.0)]
+n_3g [(0, 0.0, 0.0, 0.0, 0.0, 0.05263157894736842, 0.14814814814814814, 0.22727272727272727), (1, 0.16, 0.2777777777777778, 0.5263157894736842, 0.75, 1.0, 1.0, 1.0)]
+n_tsr [(0, 0.21276595744680848, 0.2424242424242425, 0.29166666666666674, 0.34666666666666673, 0.4210526315789474, 0.53125, 0.6206896551724138), (1, 0.5263157894736842, 0.6666666666666665, 0.8837209302325582, 1.0, 1.0, 1.0, 1.0)]
+n_jw [(0, 0.4326599326599327, 0.46296296296296297, 0.5104575163398692, 0.5623192596876807, 0.6150464396284829, 0.6630025747672806, 0.6901897098988705), (1, 0.6801346801346803, 0.7511188811188811, 0.8732539184952979, 0.9483870967741936, 1.0, 1.0, 1.0)]
+a_jacc [(0, 0.0, 0.0, 0.0, 0.0, 0.038461538461538464, 0.08333333333333333, 0.1), (1, 0.15789473684210525, 0.3333333333333333, 0.5, 0.7, 0.8666666666666667, 1.0, 1.0)]
+a_3g [(0, 0.0, 0.0, 0.0, 0.017094017094017096, 0.043478260869565216, 0.08181818181818182, 0.10784313725490197), (1, 0.14705882352941177, 0.328125, 0.5833333333333334, 0.7428571428571429, 0.875, 1.0, 1.0)]
+a_tsr [(0, 0.2448979591836735, 0.2857142857142857, 0.3296703296703296, 0.37142857142857144, 0.41379310344827586, 0.4590163934426229, 0.4912280701754386), (1, 0.6, 0.782608695652174, 0.8985507246376812, 0.9565217391304348, 1.0, 1.0, 1.0)]
+== name relation categories (true pairs)
+shape: (12, 5)
+┌──────────────────────────┬───────┬───────┬────────┬────────┐
+│ ncat                     ┆ S3    ┆ S2    ┆ S2%    ┆ S3%    │
+│ ---                      ┆ ---   ┆ ---   ┆ ---    ┆ ---    │
+│ str                      ┆ u32   ┆ u32   ┆ f64    ┆ f64    │
+╞══════════════════════════╪═══════╪═══════╪════════╪════════╡
+│ 01 raw exact             ┆ 4831  ┆ 4550  ┆ 0.047  ┆ 0.0468 │
+│ 02 case-only             ┆ 6121  ┆ 6060  ┆ 0.0626 ┆ 0.0593 │
+│ 03 punct/space/diacritic ┆ 16333 ┆ 13510 ┆ 0.1396 ┆ 0.1583 │
+│ 04 reorder               ┆ 6886  ┆ 6437  ┆ 0.0665 ┆ 0.0667 │
+│ 05 legal-suffix diff     ┆ 20012 ┆ 21537 ┆ 0.2225 ┆ 0.1939 │
+│ 06 full native script    ┆ 4739  ┆ 8684  ┆ 0.0897 ┆ 0.0459 │
+│ 07 partial native script ┆ 648   ┆ 371   ┆ 0.0038 ┆ 0.0063 │
+│ 08 domain                ┆ 5285  ┆ 5124  ┆ 0.0529 ┆ 0.0512 │
+│ 09 alias kw              ┆ 2750  ┆ null  ┆ null   ┆ 0.0266 │
+│ 10 fuzzy tsr>=.85        ┆ 25790 ┆ 22242 ┆ 0.2298 ┆ 0.2499 │
+│ 11 fuzzy .6-.85          ┆ 6713  ┆ 6197  ┆ 0.064  ┆ 0.065  │
+│ 12 unrelated <.6         ┆ 3096  ┆ 2084  ┆ 0.0215 ┆ 0.03   │
+└──────────────────────────┴───────┴───────┴────────┴────────┘
+shape: (12, 5)
+┌──────────────────────────┬───────┬───────┬────────┬────────┐
+│ ncat                     ┆ India ┆ US    ┆ US%    ┆ IN%    │
+│ ---                      ┆ ---   ┆ ---   ┆ ---    ┆ ---    │
+│ str                      ┆ u32   ┆ u32   ┆ f64    ┆ f64    │
+╞══════════════════════════╪═══════╪═══════╪════════╪════════╡
+│ 01 raw exact             ┆ 2208  ┆ 7173  ┆ 0.0596 ┆ 0.0277 │
+│ 02 case-only             ┆ 2976  ┆ 9205  ┆ 0.0765 ┆ 0.0373 │
+│ 03 punct/space/diacritic ┆ 9754  ┆ 20089 ┆ 0.167  ┆ 0.1223 │
+│ 04 reorder               ┆ 4664  ┆ 8659  ┆ 0.072  ┆ 0.0585 │
+│ 05 legal-suffix diff     ┆ 16483 ┆ 25066 ┆ 0.2084 ┆ 0.2067 │
+│ 06 full native script    ┆ 13423 ┆ null  ┆ null   ┆ 0.1684 │
+│ 07 partial native script ┆ 1019  ┆ null  ┆ null   ┆ 0.0128 │
+│ 08 domain                ┆ 3610  ┆ 6799  ┆ 0.0565 ┆ 0.0453 │
+│ 09 alias kw              ┆ 820   ┆ 1930  ┆ 0.016  ┆ 0.0103 │
+│ 10 fuzzy tsr>=.85        ┆ 17598 ┆ 30434 ┆ 0.2531 ┆ 0.2207 │
+│ 11 fuzzy .6-.85          ┆ 4884  ┆ 8026  ┆ 0.0667 ┆ 0.0613 │
+│ 12 unrelated <.6         ┆ 2293  ┆ 2887  ┆ 0.024  ┆ 0.0288 │
+└──────────────────────────┴───────┴───────┴────────┴────────┘
+== examples of '12 unrelated' and '11 fuzzy'
+12 unrelated <.6
+    ('Transition Agro LLP', 'YUMARIZA', 0.9696969696969697)
+    ('Jones Unified Workshop', 'Nexsyn', 1.0)
+    ('MA Solutions Limited', 'PYRALUM', 1.0)
+    ('Cherry Xsolla LLC', 'NOVIECTOFAYE', 0.9473684210526315)
+    ('Raipur Farms Private Limited', 'Veoevo', 1.0)
+    ('Bhopal Pumps Pvt. Ltd.', 'Novitavo', 1.0)
+    ('Fatehpur Sarees Private Limited', 'Nexnovibelo', 1.0)
+    ('Greulich and Colvin Neighborhood, LLC', 'Yumaavi', 0.7272727272727272)
+    ('Youth Allied Association Inc.', '#YOUTHALLIED', 0.9278350515463917)
+    ('Piedmont Center', 'Gildcalohalo', 0.96875)
+    ('Reach Compu Private Limited', 'Koryumawex', 0.9846153846153847)
+    ('Medall Hospitality Private Limited', 'Drexquo', 0.9195402298850575)
+11 fuzzy .6-.85
+    ('American Custom Electric Inc', '#americancustom', 1.0)
+    ('Garcia Holdings', 'Garcia  Inc', 1.0)
+    ('Coastal Oaktree Inc', 'COASTAL INC  SERVICES', 0.9367088607594937)
+    ('Coon LLC', 'Cfdon LLC', 1.0)
+    ('Kochar Gold Private Limited', 'Kochar Gold Limited Center', 0.955223880597015)
+    ('@ Style 3 You LLC', '@ 3 You LLC Service', 1.0)
+    ("Hobbs's Enterprises LLC", "Hobbs's LLC Service", 0.9508196721311475)
+    ('Prime Power', 'Prime Prime Pr', 0.8076923076923077)
+    ('KJ Electric', 'KJ Sérvices', 0.7804878048780488)
+    ('Cmp Advisors Limited', 'Cmp Advisors (Ltd) - 2013619122', 0.8210526315789474)
+    ('Nandan Holdings', 'NDNA  H0LDINGS', 0.9830508474576272)
+    ('Hindusthan Developers Group', 'Hindusthan Devel0pers', 0.955223880597015)
+09 alias kw
+    ('Mahaveer & Brothers Private Limited', 'Wexzeta+ DBA: Mahaveer & Brothers Private Limited', 1.0)
+    ('Golden Realty Ventures', 'Pyragild formerly known as Golden Realty Ventures', 1.0)
+    ('Eagle & Co', 'Ectocalo One formerly: Eagle & Co', 1.0)
+    ('Desert Health Center', 'Fayeveowex d/b/a Desert Health Center', 1.0)
+    ('Pci Insurance Ltd', 'Jaxumbra Co dba Pci Insurance Ltd', 1.0)
+    ('Ramos, Mcmahon and Mccartney Marketing Inc.', 'Zephpyra formerly Ramos, Mcmahon and Mccartney Marketing Inc.', 1.0)
+    ('Katharyn Cross Globa of Chandler', 'Pyralyradova d/b/a Katharyn Cross Globa of Chandler', 1.0)
+    ('Noellyn Myers Continental Enhanced', 'Brixtavoumbra f/k/a Noellyn Myers Continental Enhanced', 1.0)
+    ('Resources Steel Ltd', 'Mirazephvantage Sys formerly known as Resources Steel Ltd', 1.0)
+    ('Seven Systems Private Limited', 'Pyravera d/b/a Seven Systems Private Limited', 1.0)
+    ('Addy Hiett Social', 'Ectocalo dba Addy Hiett Social', 1.0)
+    ('Sree Finance Private Limited', 'Lumdelta DBA Sree Finance Private Limited', 1.0)
+08 domain
+    ("Mccutcheon's Dental", 'mccutcheonsdental.com', 1.0)
+    ('Optimal Cayson PLLC', 'óptimalcayson.com', 0.8888888888888888)
+    ('Martinez & Huang LLC', 'Martinez & Huang Llc | www.martinez.com', 0.927536231884058)
+    ('Mim Brothers Pvt Ltd', 'MIMBROTHERS.COM', 0.8450704225352113)
+    ('Mendez & Whittington', 'mendezwhittington.com', 0.9387755102040817)
+    ('Ernakulam Flour Private Limited', 'ernakulamflour.com', 0.9320388349514563)
+    ('Best Construction Pvt Ltd', 'bestc0nstruction.com', 0.9242424242424242)
+    ('2484 Washington Place Holdings', '2484washingtonplace.com', 0.9508196721311475)
+    ('Mckinnon Fuse LLC', 'FUSEMCKINNON.COM', 1.0)
+    ('Ear Nose & Throat Center LLC', 'Ear Nose & Throat | www.earnose.com', 0.9090909090909091)
+    ('Sairaj (india) Private Limited', 'sairajindia.com', 1.0)
+    ('Protecva Peak Hancock', 'protecvapeakhancock.com', 1.0)
+== address sim for positives whose name is unrelated (<.6): [(0.9423588773277902, 0.005405405405405406, nan)]
+== both-weak positives (n_tsr<.6 and (addr missing or a_tsr<.6)) frac: 0.000625
+== top tokens DROPPED from S1 name in match: [('limited', 12969), ('llc', 9124), ('inc', 6290), ('private', 4782), ('ltd', 3383), ('and', 1584), ('c', 1508), ('llp', 1098), ('group', 1014), ('corp', 918), ('pc', 795), ('p', 780), ('l', 764), ('associates', 750), ('care', 686), ('co', 655), ('india', 624), ('partners', 620), ('pllc', 611), ('center', 601), ('pvt', 601), ('lp', 502), ('clinic', 484), ('corporation', 411), ('services', 391), ('solutions', 365), ('brothers', 364), ('company', 360), ('d', 352), ('health', 326), ('trading', 294), ('industries', 278), ('technologies', 265), ('international', 262), ('ventures', 249), ('global', 247), ('enterprises', 240), ('holdings', 236), ('medicine', 229), ('school', 219)]
+== top tokens ADDED in S2/S3 name: [('ltd', 6506), ('center', 5923), ('services', 4278), ('inc', 2622), ('l', 2231), ('service', 1972), ('llc', 1880), ('c', 1800), ('co', 1795), ('corporation', 1763), ('the', 1698), ('corp', 1677), ('partners', 1635), ('a', 1512), ('limited', 1158), ('lp', 1144), ('incorporated', 1131), ('shri', 1003), ('s', 983), ('m', 972), ('sri', 959), ('dr', 951), ('mr', 936), ('smt', 906), ('dba', 846), ('formerly', 746), ('as', 712), ('k', 657), ('p', 618), ('id', 603), ('b', 579), ('d', 576), ('company', 545), ('llp', 408), ('f', 392), ('limittedd', 357), ('trading', 317), ('doing', 275), ('t', 269), ('business', 269), ('aka', 238), ('praaivett', 213), ('enterprises', 212), ('fka', 205), ('nee', 202), ('known', 198), ('sys', 154), ('labs', 154), ('lnc', 146), ('one', 139), ('5ervices', 91), ('lndia', 78), ('praiveett', 64), ('li', 61), ('praa', 60), ('pc', 56), ('trust', 54), ('society', 53), ('board', 49), ('foundation', 48)]
+== address: positives b_addr_missing by src: [('S2', 0.04497086656473408), ('S3', 0.04370954614162242)]
+== first-number equality among positives with both numbers: [('S2', 'US', nan), ('S2', 'India', nan), ('S3', 'US', nan), ('S3', 'India', nan)]
+== first-number equality among negatives: [('India', nan), ('US', nan)]

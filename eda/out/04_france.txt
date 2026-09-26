@@ -1,0 +1,195 @@
+E:\Amazon ML Challenge\eda\04_france_peek.py:11: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  r = tok(pl.concat([fr[2], fr[3]])).explode("t")
+
+== France S1 random 15
+   Jerusalem Musique | 238 Rue Pierre Mauroy, Lille, Hauts-de-France
+   Canons & Cie | 105 Rue Bayard, Calais, Hauts-de-France
+   Entreprises Lycee | 18 Rue Duguesclin, Roubaix, Hauts-de-France
+   Lezards Compagnie SAS | 9 Avenue des Echoppes, Pessac, Nouvelle-Aquitaine
+   Pharmacie Kaneka | 33 RUE de la Rosiere dArtois, Nantes, Pays de la Loire
+   Sekhmet (France) Foyer | 16 Rue Benjamin Saufrignon, Mérignac, Nouvelle-Aquitaine
+   RBX Culturelle SARL | Lille, Hauts-de-France, 9 Rue Ducourouble
+   Salaries Foyer SAS | Hauts-de-France, Calais, 2 Rue Léonard de Vinci
+   Nantes Parents SARL | 1 Rue de Basse-Houche, Nantes, Pays de la Loire
+   Evangile Mare College EURL | 113 Rue des Poilus, Dunkerque, Hauts-de-France
+   Roubaix Amicale SARL | 98 Rue de Maubeuge, Roubaix, Hauts-de-France
+   Nantes Amicale SAS | Nantes, Pays de la Loire, 93 Route de la Jonelière
+   Lycée Jean | 28 Rue des Trois Rois, Nantes, Pays de la Loire
+   Arts Compagnie SARL | 20 Rue Wolfgang Amadeus Mozart, Saint-Nazaire, Pays de la Loire
+   Comptoir Amicale EURL | 46 Rue Guy Moquet, Hauts-de-France, Tourcoing
+
+== France S2 random 15
+   Fanfare Gaule  SARL Maison | 103 BD DU PRÉSIDENT WILSON, BORDEAUX, Nouvelle-Aquitaine
+   Clinique Sainte Sainte Développement | 28 RUE LEON SAY, NANTES, Loire-Atlantique
+   clinique de notre | MÉRIGNAC, 27 RUE JAN BART
+   MKL Club | 0022 QUAI DES SALINIÈRES, BORDEAUX, Gironde
+   Association des Partisans | NO 8 CUOR DUBAR, TOURCOING, Nord
+   École primaire du Desaccords SCI | 25 RUE FRANCIS MARTIN, BORDEAUX
+   TJQ Élsémnetiare SARL | 16 R DE CAAUJAC, BORDEAUX
+   Hangar Groupement (SAS) | NO 38 COURS VICTOR HUGO, BORDEAUX, Gironde
+   CHAUMONTOIS NAITRE COMITE | 501 RUE DE GAND, TOURCOING, Hauts-de-France
+   Consultations & Fïls SARL | 31 RUE DU CARDINAL LAVIGERIE, BORDEAUX, Gironde
+   CT | Bordeaux, Nouvelle-Aquitaine, 21 - RUE LEBRUN
+   dynamicfrancecomite.com | 2527 RUE DU MARECHAL FOHC, ROUBAIX, Hauts-de-France
+   SAINT-HERBLAIN AMICALE | 20 RUE DES BUZARIIÈRES, SAINT-HERBLAIN
+   ÉCOLE DE VETERANS SCI | 13 ALLÉE DE DIANE, PORNIC, Loire-Atlantique
+   Vaux Amicale SAS | RUE DE NANMES, LILLE, Hauts-de-France
+
+== France S3 random 15
+   Collège-Sainte Aikido | 3 All Jean Baptiste Fourier, Nantes
+   Laz  Centre SARL | 13 Rue Peerre Puis, Calais, Pas-de-Calais
+   SASU Team Club | 88 Rue De Mouvaux, Roubaix, Hauts-de-France
+   Shotokan Lycée | 14 Rue Raymond Coulier, Dunkerque, Hauts-de-France
+   WFY Loisirs Sarl | No 6 R Gustave Fernand Plos Cazau, La Teste-de-buch, Gironde
+   Personnes Coifte SA | 4 Bis Boulevard Salvador Allende, Tourcoing, Hauts-de-France
+   Fédération des Mauli & Fils | 59 R Edgar Quinet, Nantes
+   Maison Sauvegarde  France [SAS] | Residence Du Domaine Bat Fleurance 1 Apt 289, 68 Rue De Caperyon, Gironde, Bordeaux
+   Saint-Nazaire  Loisirs | Pays de la Loire, Saint-nazaire, 64 Ave De Saint-nazaire
+   jumelageamis.com | 53 Rue Rene Descartes, Saint-nazaire, Pays de la Loire
+   XIU Comite SCI | 6 R Ollivier, Lille
+   Club du Perigord SCI | 75 Ave Charles Lesca, Lege-cap-ferret
+   EO | 24 Rue Ternaux, Roubaix, Nord
+   Ets Maintien S.A.S | 30 Rue Emile Peynaud, Appartement A08 Residence Mosaic, Bordeaux, Nouvelle-Aquitaine
+   LAND EPICERIE UNION | 17 R. Des Herbes, Bordeaux
+
+### Universe Mx Boulangerie SARL | 8 Rue de la Garde, Nantes, Pays de la Loire   rare=['universe', 'boulangerie']
+      S2-84625350 | UNIVERSE MX BOULANGERIE SÀRL | 8 RUE DE LA GARDE, NANTES, Pays de la Loire
+      S3-679673444 | universe mx boulangerie sarl | N° 8 R. De La Garde, Nantes, Loire-Atlantique
+      S2-137514314 | Universe Mx Boulangerie S.A.R.L. | None
+      S2-431462692 | Universe Mx Boulangerie | 8 RUE DE LA GARDE, NANTES, Pays de la Loire
+
+### École maternelle Liste | Nouvelle-Aquitaine, Mérignac, 47 Avenue Victor Hugo   rare=['liste', 'maternelle']
+
+### Artterre Sport (France) | 51 Rue Fondaudege, Bordeaux, Nouvelle-Aquitaine   rare=['artterre', 'sport']
+      S3-690139487 | Artterre Sport France | N° 51 R Fondaudege, Bordeaux, Gironde
+      S2-387561929 | ARTTERRE SPORT (FRANCE) | (51) R. FONDAUDEGE, BORDEAUX
+      S2-257734578 | ARTTERRE  SPORT (FRANCE) | (51) RUE FONDAUDEGE, BORDEAUX
+      S2-217669782 | Artterre Sport (France) | (51) RUE FONDAUDEGE, BORDEAUX
+      S2-929417854 | Artterre Sport (France) | (51) R FONDAUDEGE, BORDEAUX
+
+### Local Sante (France) SAS | 45 Rue Pierre et Marie Curie, Dunkerque, Hauts-de-France   rare=['local', 'sante']
+      S2-687893233 | Local Sante (France) S.A.S. | 45 RUE PIERRE ET MARIE CURIE, DUNKERQUE, Hauts-de-France
+      S3-530162115 | Local Sante (France) SAS | N° 45 Rue Pierre Et Marie Curie, Dunkerque
+
+### EHPAD Saint Lamoma | 11 Rue du Général de Monsabert, Pessac, Nouvelle-Aquitaine   rare=['lamoma', 'ehpad']
+      S3-208812530 | EHPAD Saint Lamoma | Pessac, 11 Rue Du Général De Monsabert, Nouvelle-Aquitaine
+      S3-642844261 | EHPAD St-Lamoma | 11 R. Du Général De Monsabert, Nouvelle-Aquitaine, Pessac
+      S2-936828978 | EHPAD SAINT  [LAMOMA] | 11 R DU GÉNÉRAL DE MONSABERT, PESSAC
+
+### Comité des Lbm | 20 Avenue des Provinces, Pessac, Nouvelle-Aquitaine   rare=['comité']
+      S3-278070126 | Comité de-Isigny | No. 120 Avenue De L'alouette, Mérignac, Nouvelle-Aquitaine
+      S3-293028258 | Comité dé Protection | None
+      S3-607668524 | Comité du [Lesprit] | Rez De Chaussee, N° 20 Rue Lajarte, Bordeaux, Nouvelle-Aquitaine
+      S2-686230704 | Comité Des Brume | None
+      S2-833914979 | Comité des Fils | 0020 CITÉ DE VADELAINCOURT, BORDEAUX, Gironde
+      S3-677291223 | Comité du Medecins Développement SARL | 20 R. De La Pinède, Pornic, Pays de la Loire
+      S3-537045624 | Comité  Sentiers | Lille, Nord, 20 R De Canteleu
+      S3-503011505 | Comité de Residents France | 207 Rue Génral Buat, Nantes, Loire-Atlantique
+
+### 44 Club SARL | Nantes, Pays de la Loire, 6 Quai Ceineray   rare=['club', 'sarl']
+      S3-125260177 | Trail Club  SARL | 125 R. De La Noe, Laboratoire Gem Ecole Centrale De Nantes, Nantes
+      S2-26596674 | JI Club SARL | None
+      S3-436895152 | Nantes Club SARL | 48 Rue General Lanrezac, Nantes, Loire-Atlantique
+      S2-299907736 | PIA Club SARL | None
+      S3-977417134 | NG CLUB SARL | #1 Rue Guillaume Grootaers, Nantes, Pays de la Loire
+      S2-36273283 | Mérignac Club SARL Enterprises | None
+      S3-507745616 | Entre (Frànce) Club SARL | Quai De La Fosse, Maison De La Mer Daniel Gilardecole Nationale De La Marine Marchande, Nantes, Loire-Atlantique
+      S3-395851595 | Generations Club Sarl | 21 Bd. De La Liberte, Nantes, Loire-Atlantique
+
+### Association du Refuge | 36 Rue de la Rivière, Nantes, Pays de la Loire   rare=['refuge', 'association']
+      S3-647200732 | Association du Refuge | Pays de la Loire, Nantes, 36 R. De La Riviere
+      S2-707679932 | Association du  Refuge | 36 RUE DE LA RIVIÈRE, NANTES, Loire-Atlantique
+
+### Jour & Cie SARL | 18 Rue Jean Cocteau, Bordeaux, Nouvelle-Aquitaine   rare=['jour', 'sarl']
+      S3-869182821 | Jour & Cie Sarl | N° 18 Rue Jean Cocteau, Bordeaux, Nouvelle-Aquitaine
+      S2-847136717 | JOUR SPORTIVE  SARL | 18 R DE LA VICTOIRE, NANTES
+      S3-925699120 | Jour Collectif Sarl | Nantes, N° 18 R De La Victoire
+      S2-834577714 | Jour Spôrtive SARL | 18 RUE DE LA VICTOIRE, NANTES
+      S3-839497111 | JOUR & CIE SARL | N° 18 R. Jean Cocteau, Bordeaux, Nouvelle-Aquitaine
+      S3-220965615 | Jour Sportive SARL | N° 18 Rue De La Victoire, Nantes
+      S3-435527293 | SARL Jour + Cie | N° 18 Rue Jean Cocteau, Bordeaux, Nouvelle-Aquitaine
+      S3-848481211 | Sarl Jour Sportive | Nantes, N° 18 Rue De La Victoire
+
+### HPS Groupe SA | 115 BD du Massacre, Lycee Carcouet, Nantes, Pays de la Loire   rare=['groupe']
+      S3-256314162 | École du Sainte Groupe | None
+      S3-797469462 | Fontaine Groupe | None
+      S3-233408307 | Lille Groupe-EI | None
+      S2-582455752 | Établissements Go SAS Groupe | None
+      S2-834964658 | Turny Groupe | None
+      S2-972924718 | Laragne & SARL Groupe | None
+      S3-382217827 | majors groupe sarl | Bordeaux, 115 Crs D'albret, Nouvelle-Aquitaine
+      S3-160088019 | Lille  (Groupe) | None
+
+### Yana Sportive | 17 Rue Montgolfier, Bordeaux, Nouvelle-Aquitaine   rare=['yana', 'sportive']
+      S2-68925925 | YANA SPORTIVE EURL | NO 17 RUE MONTGOLFIER, BORDEAUX, Nouvelle-Aquitaine
+      S3-546389970 | yana sportive | 17 R. Montgolfier, Bordeaux
+      S3-699751999 | Yana Sportive SA | 17 Rue Montgolfier, Bordeaux
+
+### Maison Terre SAS | 9 Allee des Buissons, Lège-Cap-Ferret, Nouvelle-Aquitaine   rare=['terre', 'maison']
+      S3-294354859 | Maison Terre Et Fils | None
+      S2-801977460 | Maison Terre | None
+      S3-416056027 | Terre Maison S.A.R.L. | None
+      S3-659817732 | maison terre Enterprises | None
+      S2-502225696 | MAISON DE SANTÉ ST [TERRE] | 9 BIS RUE GALLIENI, PESSAC
+      S2-507989091 | Enfance Terre Maison SAS | LILLE, THEATRE MASSENET, 39 R MASSENET
+      S3-451218474 | Maison de Santé Saint Terre SASU | Nouvelle-Aquitaine, 9 Bis Rue Gllieni, Pessac
+      S3-314177656 | Arianex DBA: Maison de Santé Saint Terre | 9 bis Rue Gallieni, Pessac, Nouvelle-Aquitaine
+
+### Harmonie Restauration SARL | 34 Rue Emile Zola, Lille, Hauts-de-France   rare=['harmonie', 'restauration']
+      S3-763720219 | Harmonie Restauration SARL | 34 R Eimle Zola, Lille
+      S3-628643139 | Harmonie Restauration | 34 R. Emile Zola, Lille
+      S3-840927870 | Harmonie [Restauration] | Lille, 34 Rue Emile Zola
+      S2-849841802 | Harmonie Restauration SARL | 34 R. EMILE ZOLA, LILLE, Hauts-de-France
+
+### Polyvalent & Frères | 56 Rue Malakoff, Lille, Hauts-de-France   rare=['polyvalent', 'frères']
+      S2-563262841 | Polyvalent & Frères SAS | 56 - R. MALAKOFF, LILLE, Hauts-de-France
+      S3-757473887 | Polyvalent &-Frères SCI | 56 Rue Malakoff, Lille, Nord
+
+### Lavenir Groupement SAS | 7 b Chemin de la Dune Camicas, La Teste-de-Buch, Nouvelle-Aquitaine   rare=['lavenir', 'groupement']
+      S2-482454853 | Lavenir Groupement | Gironde, 7B CHEMIN DE LA DNE CAMICAS, LA TESTE-DE-BUCH
+
+### Calais Collège SARL | 80 Rue Auguste Blanqui, Calais, Hauts-de-France   rare=['calais', 'collège']
+      S2-888619249 | Calais Collège (SA) | None
+      S3-842740913 | Calais Collège Sarl | 80 Rue Auguste Blanqui, Calais, Hauts-de-France
+      S2-501909164 | Calais Collège SARL | None
+      S2-725015195 | Calais Collège EURL | None
+      S3-311083840 | SARL Calais Collège | 180 Rue Marcel Doret, Calais, Pas-de-Calais
+      S2-777423593 | Calais Collège SAS | None
+      S2-163748975 | Calais Collège-SARL | 180 R. MARCEL DORET, CALAIS, Hauts-de-France
+      S3-84126456 | Calais  Collège SARL | 180 R Marcel Doret, Calais, Pas-de-Calais
+
+### Protection Ehpad (France) SAS | 8 Rue Charles de Foucauld, Lille, Hauts-de-France   rare=['protection', 'ehpad']
+      S2-148570837 | EHPAD Sainte Protection | N°8 RUE URVOY DE SAONT BEDAN, NANTES, Pays de la Loire
+      S3-801494065 | Protection Ehpad | 8 Rue Charles de Foucauld, Lille, Hauts-de-France
+      S3-432835055 | Protection Ehpad (tdFrace) SAS | 8 R Charles De Foucaudd, Lille, Hauts-de-France
+      S3-606332021 | Protection Ehpad (France) | 8 R Charles De Foucauld, Lille, Hauts-de-France
+
+### Maison de Santé Notre | 75 Rue de la Justice, Lille, Hauts-de-France   rare=['notre', 'santé']
+      S3-857130639 | Maison Santé de Notre | None
+      S2-607746896 | Maison de Santé Sâint Notre | None
+      S2-14978311 | Maison de Santé Notre Sainte | None
+      S2-227876975 | Maison de Santé Saint Notre | None
+      S2-821839038 | Maison de Santé de la Notre SCI | None
+      S2-810159964 | Maison de Santé Notre Enterprises | None
+      S3-114753636 | Maison de Santé Notre Trading | None
+      S3-819759948 | Maison de Santé Sainte Notre | None
+
+### BO Union SARL | 292 Rue d'Ornano, Bordeaux, Nouvelle-Aquitaine   rare=['union', 'sarl']
+      S3-587572719 | dattelages union sarl | None
+      S3-5431395 | Saad Union Sarl | None
+      S3-524826404 | Tourisme Union SARL | None
+      S3-959088904 | Belles-Filomene Union SARL | None
+      S3-681740994 | local union (france) sarl | None
+      S3-40534472 | Music Union  (France) SARL | None
+      S2-237417667 | Macé Union SARL | None
+      S3-923207057 | Esp Union  SARL | None
+
+### La Teste-de-Buch Groupe SARL | 8 Rue May sur Orne, La Teste-de-Buch, Nouvelle-Aquitaine   rare=['teste', 'buch']
+      S3-995872309 | La Teste-de-Buch Sport Groupe [S.A.S] | No 8 Av De L’observatoire Pyla, La Teste-de-buch, Nouvelle-Aquitaine
+      S3-725228168 | La Teste-de-Buch Club Participations (SARL) | 81 B Rue Du President Carnot, La Teste-de-buch, Nouvelle-Aquitaine
+      S2-42533844 | La Teste-de-Buch Fèderation EI | None
+      S3-138834815 | La Teste-De-Buch Eiheo-Sas | 58 Bd. De L’atlantique, La Teste-de-buch
+      S2-560587953 | La Teste-de-Buch Concept SAS | None
+      S3-524641434 | La Teste-de-Buch Club Participations S.A.R.L. | 81 Quater R. Gaston De Foix, La Teste De Buch, Gironde
+      S3-361982690 | La Teste-de-Buch Lycée France | 78 Rue Du Cotoum, La Teste De Buch, La Teste-de-buch
+      S2-61299851 | La Teste-de-Buch Compagnie SASU | 83 BIS AVENUE CHARLES DE GAULLE, LA TESTE-DE-BUCH, Nouvelle-Aquitaine

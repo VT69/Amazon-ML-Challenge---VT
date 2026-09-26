@@ -1,0 +1,21 @@
+train (2947411, 85) pos 0.031588740084094145 | val (2371137, 85) 1.83GB
+Training until validation scores don't improve for 30 rounds
+[25]	valid_0's binary_logloss: 0.00895792
+[50]	valid_0's binary_logloss: 0.00664459
+[75]	valid_0's binary_logloss: 0.00603396
+[100]	valid_0's binary_logloss: 0.00573905
+[125]	valid_0's binary_logloss: 0.00557181
+[150]	valid_0's binary_logloss: 0.00547181
+[175]	valid_0's binary_logloss: 0.00540434
+[200]	valid_0's binary_logloss: 0.00532403
+[225]	valid_0's binary_logloss: 0.00527683
+[250]	valid_0's binary_logloss: 0.00525512
+[275]	valid_0's binary_logloss: 0.00523261
+[300]	valid_0's binary_logloss: 0.00522519
+Early stopping, best iteration is:
+[278]	valid_0's binary_logloss: 0.00521911
+trained 2691 s, best iter 278 2.26GB
+top features: [('p_rank', 914), ('nm_mindiff', 244), ('aw_cq_gapmax', 121), ('p_score_gapmax', 103), ('n_tsr_gapmax', 31), ('aw_extra', 21), ('n3_extra', 20), ('num_cq', 19), ('n_tsr_rk', 15), ('f_rank', 15), ('aw_ns', 12), ('q_rawlen', 10), ('aw_cos', 10), ('n3_cos_gapmax', 9), ('nns_ratio', 9), ('nw_cos', 8), ('aw_cq', 8), ('s_rawlen', 7), ('s_nc_dup', 7), ('sk_cos', 7), ('n_pr', 6), ('n_ratio', 6), ('sk_cos_gapmax', 5), ('nm_first_eq', 5), ('nw_cq', 5), ('aw_miss', 5), ('n_jw', 5), ('nm_miss', 4), ('aw_cd', 4), ('nw_cos_gapmax', 4)]
+threshold sweep (t, macroF0.5): [(0.05, 0.42352), (0.1, 0.42351), (0.15, 0.42332), (0.2, 0.42307), (0.25, 0.42283), (0.3, 0.4226), (0.35, 0.4224), (0.4, 0.42212), (0.45, 0.42186), (0.5, 0.42155), (0.55, 0.42108), (0.6, 0.42069), (0.65, 0.42012), (0.7, 0.41943), (0.75, 0.41863), (0.8, 0.41752), (0.85, 0.41588), (0.9, 0.41361), (0.95, 0.4081)]
+sweep (restricted): [(0.05, 0.98235), (0.1, 0.98231), (0.15, 0.98183), (0.2, 0.98121), (0.25, 0.9806), (0.3, 0.98001), (0.35, 0.97951), (0.4, 0.97881), (0.45, 0.97816), (0.5, 0.97739), (0.55, 0.97619), (0.6, 0.97522), (0.65, 0.97379), (0.7, 0.97204), (0.75, 0.97002), (0.8, 0.96724), (0.85, 0.96313), (0.9, 0.95742), (0.95, 0.94354)]
+India: F0.5=0.9823  singletons=0.9854  non-singletons=0.9822  n=22041

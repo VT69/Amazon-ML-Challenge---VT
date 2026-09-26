@@ -1,0 +1,7 @@
+  vocab = [w for w in S1["nc"].str.split(" ").explode().drop_nulls().to_list() if len(w) >= 4]
+India synthetic records: 99859 clusters: 56976 [('num+legal', 24930), ('num', 60097), ('num+word', 14832)] 85s
+  India syn chunk 0: q=99859 cand/q=23.2  top-1 == parent S1: 0.840
+  vocab = [w for w in S1["nc"].str.split(" ").explode().drop_nulls().to_list() if len(w) >= 4]
+US synthetic records: 149718 clusters: 91092 [('num', 89962), ('num+legal', 37407), ('num+word', 22349)] 129s
+  US syn chunk 0: q=149718 cand/q=24.5  top-1 == parent S1: 0.863
+synthetic done 249577

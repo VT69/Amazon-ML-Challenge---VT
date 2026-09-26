@@ -1,0 +1,2 @@
+[11:33:11] waiting for synthetic generation
+[11:36:23] building v2 features (train + test-like validation)
