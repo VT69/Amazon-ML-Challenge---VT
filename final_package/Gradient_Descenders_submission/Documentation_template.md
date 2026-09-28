@@ -1,8 +1,8 @@
 # ML Challenge 2026: Business Entity Resolution Solution Template
 
 **Team Name:** Gradient Descenders  
-**Team Members:** [add team member names]  
-**Submission Date:** 27 September 2026
+**Team Members:** Vaibhav Tiwari, Mohit Upadhyay, Kavish Bishnoi, Harshit Gupta  
+**Submission Date:** September 25 – 27, 2026
 
 ---
 
