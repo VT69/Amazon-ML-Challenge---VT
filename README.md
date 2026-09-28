@@ -1,7 +1,8 @@
 # ML Challenge 2026: Business Entity Resolution — Team Gradient Descenders
 
 **Team Name:** Gradient Descenders  
-**Rank: 1020**
+**Rank:** **1020** out of 90,000
+
 **Team Members:** Vaibhav Tiwari, Mohit Upadhyay, Kavish Bishnoi, Harshit Gupta  
 **Submission Date:** September 25 – 27, 2026
 
