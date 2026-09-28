@@ -1,0 +1,46 @@
+France S1 side 6 s 0.57GB
+  France_s2_000.parquet pairs=5406497 344s 1.62GB
+  France_s2_001.parquet pairs=5410115 341s 1.58GB
+  France_s2_002.parquet pairs=4400869 290s 1.71GB
+  France_s3_000.parquet pairs=5398811 351s 1.60GB
+  France_s3_001.parquet pairs=5399304 340s 1.26GB
+  France_s3_002.parquet pairs=4998904 300s 1.23GB
+India S1 side 9 s 1.61GB
+  India_s2_000.parquet pairs=5565390 331s 2.71GB
+  India_s2_001.parquet pairs=5565201 338s 2.67GB
+  India_s2_002.parquet pairs=5568443 334s 2.67GB
+  India_s2_003.parquet pairs=5569095 328s 2.68GB
+  India_s2_004.parquet pairs=5568126 332s 2.68GB
+  India_s2_005.parquet pairs=5565715 328s 2.68GB
+  India_s2_006.parquet pairs=5570945 334s 2.67GB
+  India_s2_007.parquet pairs=5570443 367s 1.18GB
+  India_s2_008.parquet pairs=5568623 728s 1.69GB
+  India_s2_009.parquet pairs=1393608 108s 1.47GB
+  India_s3_000.parquet pairs=5750932 405s 1.79GB
+  India_s3_001.parquet pairs=5753400 405s 1.82GB
+  India_s3_002.parquet pairs=5749815 406s 1.85GB
+  India_s3_003.parquet pairs=5752626 405s 1.88GB
+  India_s3_004.parquet pairs=5753992 410s 1.88GB
+  India_s3_005.parquet pairs=5752518 415s 1.88GB
+  India_s3_006.parquet pairs=5752892 416s 1.89GB
+  India_s3_007.parquet pairs=5750214 395s 1.90GB
+  India_s3_008.parquet pairs=5754194 340s 1.91GB
+  India_s3_009.parquet pairs=3564685 213s 2.10GB
+US S1 side 22 s 1.81GB
+  US_s2_000.parquet pairs=5434145 333s 2.38GB
+  US_s2_001.parquet pairs=5436624 323s 2.39GB
+  US_s2_002.parquet pairs=5437074 344s 2.49GB
+  US_s2_003.parquet pairs=5436564 322s 2.44GB
+  US_s2_004.parquet pairs=5434095 322s 2.40GB
+  US_s2_005.parquet pairs=5433942 323s 2.53GB
+  US_s2_006.parquet pairs=5438870 341s 2.40GB
+  US_s2_007.parquet pairs=2638722 165s 2.19GB
+  US_s3_000.parquet pairs=5415386 331s 2.38GB
+  US_s3_001.parquet pairs=5415342 331s 2.41GB
+  US_s3_002.parquet pairs=5413399 333s 2.40GB
+  US_s3_003.parquet pairs=5418714 330s 2.41GB
+  US_s3_004.parquet pairs=5413583 338s 2.52GB
+  US_s3_005.parquet pairs=5412670 323s 2.54GB
+  US_s3_006.parquet pairs=5413766 325s 2.46GB
+  US_s3_007.parquet pairs=4238459 255s 2.38GB
+done

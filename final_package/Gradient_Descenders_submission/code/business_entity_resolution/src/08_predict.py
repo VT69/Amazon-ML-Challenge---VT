@@ -20,6 +20,10 @@ out = f"{PQ}/pred_{split}_{tag}"; os.makedirs(out, exist_ok=True)
 # optional speed-up: only run the model on pairs another model already gave >= PREFILTER_MIN (others get prob 0).
 # Features are still computed on the FULL candidate list, so within-record context features are unchanged.
 PRE_TAG, PRE_MIN = os.environ.get("PREFILTER_TAG", ""), float(os.environ.get("PREFILTER_MIN", "0.001"))
+# PREFILTER_LIST: optional file with chunk names to prefilter (the submitted v019 prefiltered exactly these 22 chunks;
+# the other 20 were scored in full). Without it, PREFILTER_TAG applies to every chunk.
+_pl = os.environ.get("PREFILTER_LIST", "")
+PRE_CHUNKS = set(open(_pl).read().split()) if _pl else None
 files = sorted(glob.glob(f"{PQ}/{split}_cand/*.parquet"))
 for country in sorted({os.path.basename(f).split("_")[0] for f in files}):
     todo = [f for f in files if os.path.basename(f).startswith(country + "_") and not os.path.exists(f"{out}/{os.path.basename(f)}")]
@@ -39,7 +43,7 @@ for country in sorted({os.path.basename(f).split("_")[0] for f in files}):
                 F = add_group(F, G)
             if use_te:
                 F = F.join(te_features(F.select("rid", "s1"), split, country, T), on=["rid", "s1"], how="left")
-            if PRE_TAG:
+            if PRE_TAG and (PRE_CHUNKS is None or os.path.basename(fn) in PRE_CHUNKS):
                 pre = pl.read_parquet(f"{PQ}/pred_{split}_{PRE_TAG}/{os.path.basename(fn)}", columns=["rid", "s1", "prob"]).rename({"prob": "_pre"})
                 F = F.join(pre, on=["rid", "s1"], how="left")
                 keep = (F["_pre"].fill_null(1.0) >= PRE_MIN).to_numpy()

@@ -1,0 +1,30 @@
+train (7247952, 91) pos 0.032571821667693165 | val (5839936, 91) 4.99GB
+Training until validation scores don't improve for 60 rounds
+[25]	valid_0's binary_logloss: 0.0152256
+[50]	valid_0's binary_logloss: 0.00675592
+[75]	valid_0's binary_logloss: 0.00510583
+[100]	valid_0's binary_logloss: 0.00466315
+[125]	valid_0's binary_logloss: 0.00444857
+[150]	valid_0's binary_logloss: 0.00433875
+[175]	valid_0's binary_logloss: 0.00428207
+[200]	valid_0's binary_logloss: 0.00421981
+[225]	valid_0's binary_logloss: 0.00416767
+[250]	valid_0's binary_logloss: 0.00413681
+[275]	valid_0's binary_logloss: 0.00411047
+[300]	valid_0's binary_logloss: 0.00409225
+[325]	valid_0's binary_logloss: 0.00408348
+[350]	valid_0's binary_logloss: 0.00407128
+[375]	valid_0's binary_logloss: 0.00406633
+[400]	valid_0's binary_logloss: 0.00406093
+[425]	valid_0's binary_logloss: 0.00405594
+[450]	valid_0's binary_logloss: 0.00405181
+[475]	valid_0's binary_logloss: 0.00405368
+[500]	valid_0's binary_logloss: 0.00405647
+Early stopping, best iteration is:
+[450]	valid_0's binary_logloss: 0.00405181
+trained 1550 s, best iter 450 0.62GB
+top features: [('p_rank', 4341), ('p_score_gapmax', 1257), ('nm_mindiff', 685), ('te_extra_min', 310), ('aw_cq_gapmax', 175), ('aw_ns', 117), ('n3_cos_gapmax', 105), ('p_score_rk', 90), ('te_extra_sum', 89), ('nns_ratio', 53), ('s_nc_dup', 52), ('aw_cos', 36), ('aw_extra', 35), ('f_rank', 34), ('aw_cq', 31), ('n_jw', 23), ('aw_cq_rk', 21), ('nm_miss', 20), ('aw_cd', 20), ('q_rawlen', 19), ('nm_first_eq', 17), ('s_rawlen', 15), ('n3_cos_rk', 14), ('nw_cos_gapmax', 14), ('n3_cos', 12), ('n3_ns', 12), ('n3_extra', 11), ('n_pr', 10), ('aw_miss', 10), ('p_score', 10)]
+threshold sweep (t, macroF0.5): [(0.05, 0.98975), (0.1, 0.98962), (0.2, 0.98904), (0.3, 0.98819), (0.4, 0.9872), (0.5, 0.98611), (0.6, 0.98481), (0.7, 0.98305), (0.8, 0.9807), (0.85, 0.97844), (0.9, 0.97437), (0.95, 0.9642)]
+sweep (restricted): [(0.05, 0.98975), (0.1, 0.98962), (0.2, 0.98904), (0.3, 0.98819), (0.4, 0.9872), (0.5, 0.98611), (0.6, 0.98481), (0.7, 0.98305), (0.8, 0.9807), (0.85, 0.97844), (0.9, 0.97437), (0.95, 0.9642)]
+US: F0.5=0.9910  singletons=0.9940  non-singletons=0.9908  n=33415
+India: F0.5=0.9879  singletons=0.9919  non-singletons=0.9877  n=22041

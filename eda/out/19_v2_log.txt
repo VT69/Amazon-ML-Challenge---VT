@@ -1,0 +1,192 @@
+{
+  "version": "v009",
+  "name": "v009_all_v2_t0.7",
+  "created": "2026-09-26T16:53:51",
+  "model": "lgb_all_v2",
+  "threshold": 0.7,
+  "threshold_by_country": "",
+  "candidates": "c1",
+  "note": "v2: synthetic sibling clusters + group features + full-quality LGB",
+  "validator": "PASS",
+  "local_val_f05": {
+    "US": 0.98173,
+    "India": 0.97616,
+    "testlike": 0.97879
+  },
+  "stats": {
+    "n_s1": 1732544,
+    "n_s1_with_match": 1637938,
+    "n_links": 5890500,
+    "n_queries": 9969521
+  },
+  "git_head": "d01d669"
+}
+ML Challenge 2026 â€” submission validator
+  test dir: E:\Amazon ML Challenge\student_resource\dataset\test
+  required S1 entities: 1732544
+  valid S2/S3 match IDs: 9969589
+  matching_results.tsv: 1732544 rows (94606 empty, 1637938 non-empty).
+
+WARNING: E:\Amazon ML Challenge\submissions\v009_all_v2_t0.7\_skip_ not found â€” skipping candidate_pairs.tsv checks. It is optional here, but your final submission zip must include output/candidate_pairs.tsv.
+PASS â€” no blocking issues found. Safe to submit.
+
+{
+  "version": "v010",
+  "name": "v010_all_v2_t0.8",
+  "created": "2026-09-26T16:55:56",
+  "model": "lgb_all_v2",
+  "threshold": 0.8,
+  "threshold_by_country": "",
+  "candidates": "c1",
+  "note": "v2: synthetic sibling clusters + group features + full-quality LGB",
+  "validator": "PASS",
+  "local_val_f05": {
+    "India": 0.97394,
+    "US": 0.9798,
+    "testlike": 0.97695
+  },
+  "stats": {
+    "n_s1": 1732544,
+    "n_s1_with_match": 1634306,
+    "n_links": 5813328,
+    "n_queries": 9969521
+  },
+  "git_head": "d01d669"
+}
+ML Challenge 2026 â€” submission validator
+  test dir: E:\Amazon ML Challenge\student_resource\dataset\test
+  required S1 entities: 1732544
+  valid S2/S3 match IDs: 9969589
+  matching_results.tsv: 1732544 rows (98238 empty, 1634306 non-empty).
+
+WARNING: E:\Amazon ML Challenge\submissions\v010_all_v2_t0.8\_skip_ not found â€” skipping candidate_pairs.tsv checks. It is optional here, but your final submission zip must include output/candidate_pairs.tsv.
+PASS â€” no blocking issues found. Safe to submit.
+
+{
+  "version": "v011",
+  "name": "v011_all_v2_t0.9",
+  "created": "2026-09-26T16:57:49",
+  "model": "lgb_all_v2",
+  "threshold": 0.9,
+  "threshold_by_country": "",
+  "candidates": "c1",
+  "note": "v2: synthetic sibling clusters + group features + full-quality LGB",
+  "validator": "PASS",
+  "local_val_f05": {
+    "US": 0.97468,
+    "India": 0.96688,
+    "testlike": 0.97124
+  },
+  "stats": {
+    "n_s1": 1732544,
+    "n_s1_with_match": 1627973,
+    "n_links": 5681880,
+    "n_queries": 9969521
+  },
+  "git_head": "d01d669"
+}
+ML Challenge 2026 â€” submission validator
+  test dir: E:\Amazon ML Challenge\student_resource\dataset\test
+  required S1 entities: 1732544
+  valid S2/S3 match IDs: 9969589
+  matching_results.tsv: 1732544 rows (104571 empty, 1627973 non-empty).
+
+WARNING: E:\Amazon ML Challenge\submissions\v011_all_v2_t0.9\_skip_ not found â€” skipping candidate_pairs.tsv checks. It is optional here, but your final submission zip must include output/candidate_pairs.tsv.
+PASS â€” no blocking issues found. Safe to submit.
+
+{
+  "version": "v012",
+  "name": "v012_all_v2_t0.4",
+  "created": "2026-09-26T17:00:22",
+  "model": "lgb_all_v2",
+  "threshold": 0.4,
+  "threshold_by_country": "",
+  "candidates": "c1",
+  "note": "v2 at lower threshold (test-like val optimum ~0.4)",
+  "validator": "PASS",
+  "local_val_f05": {
+    "India": 0.97992,
+    "US": 0.98454,
+    "testlike": 0.98094
+  },
+  "stats": {
+    "n_s1": 1732544,
+    "n_s1_with_match": 1646407,
+    "n_links": 6087197,
+    "n_queries": 9969521
+  },
+  "git_head": "d01d669"
+}
+ML Challenge 2026 â€” submission validator
+  test dir: E:\Amazon ML Challenge\student_resource\dataset\test
+  required S1 entities: 1732544
+  valid S2/S3 match IDs: 9969589
+  matching_results.tsv: 1732544 rows (86137 empty, 1646407 non-empty).
+
+WARNING: E:\Amazon ML Challenge\submissions\v012_all_v2_t0.4\_skip_ not found â€” skipping candidate_pairs.tsv checks. It is optional here, but your final submission zip must include output/candidate_pairs.tsv.
+PASS â€” no blocking issues found. Safe to submit.
+
+{
+  "version": "v013",
+  "name": "v013_all_v2_t0.3",
+  "created": "2026-09-26T17:02:14",
+  "model": "lgb_all_v2",
+  "threshold": 0.3,
+  "threshold_by_country": "",
+  "candidates": "c1",
+  "note": "v2 at lower threshold (test-like val optimum ~0.4)",
+  "validator": "PASS",
+  "local_val_f05": {
+    "India": 0.98007,
+    "US": 0.98428,
+    "testlike": 0.98008
+  },
+  "stats": {
+    "n_s1": 1732544,
+    "n_s1_with_match": 1649454,
+    "n_links": 6159187,
+    "n_queries": 9969521
+  },
+  "git_head": "d01d669"
+}
+ML Challenge 2026 â€” submission validator
+  test dir: E:\Amazon ML Challenge\student_resource\dataset\test
+  required S1 entities: 1732544
+  valid S2/S3 match IDs: 9969589
+  matching_results.tsv: 1732544 rows (83090 empty, 1649454 non-empty).
+
+WARNING: E:\Amazon ML Challenge\submissions\v013_all_v2_t0.3\_skip_ not found â€” skipping candidate_pairs.tsv checks. It is optional here, but your final submission zip must include output/candidate_pairs.tsv.
+PASS â€” no blocking issues found. Safe to submit.
+
+{
+  "version": "v014",
+  "name": "v014_all_v2_t0.5",
+  "created": "2026-09-26T17:04:13",
+  "model": "lgb_all_v2",
+  "threshold": 0.5,
+  "threshold_by_country": "",
+  "candidates": "c1",
+  "note": "v2 at lower threshold (test-like val optimum ~0.4)",
+  "validator": "PASS",
+  "local_val_f05": {
+    "India": 0.97912,
+    "US": 0.9841,
+    "testlike": 0.98084
+  },
+  "stats": {
+    "n_s1": 1732544,
+    "n_s1_with_match": 1643665,
+    "n_links": 6021380,
+    "n_queries": 9969521
+  },
+  "git_head": "d01d669"
+}
+ML Challenge 2026 â€” submission validator
+  test dir: E:\Amazon ML Challenge\student_resource\dataset\test
+  required S1 entities: 1732544
+  valid S2/S3 match IDs: 9969589
+  matching_results.tsv: 1732544 rows (88879 empty, 1643665 non-empty).
+
+WARNING: E:\Amazon ML Challenge\submissions\v014_all_v2_t0.5\_skip_ not found â€” skipping candidate_pairs.tsv checks. It is optional here, but your final submission zip must include output/candidate_pairs.tsv.
+PASS â€” no blocking issues found. Safe to submit.
+

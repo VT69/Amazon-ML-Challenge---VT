@@ -6,3 +6,8 @@ eda/data/
 eda/__pycache__/
 eda/prof.out
 submissions/
+
+# final package outputs: multi-GB data files (GitHub rejects files > 100 MB); the code/docs/models are still tracked
+final_package/**/output/
+*.tsv
+*.part

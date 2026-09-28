@@ -100,3 +100,42 @@ US S1 side 33 s 2.33GB
   US_s3_000.parquet feat2_train: q=7796 pairs=174680 pos=5785
   US_s3_000.parquet 75s 2.46GB
   US_s3_001.parquet feat2_val: q=6353 pairs=142175 pos=4763
+  US_s3_001.parquet feat2_train: q=7877 pairs=176613 pos=5847
+  US_s3_001.parquet 31s 2.40GB
+  US_s3_002.parquet feat2_val: q=6351 pairs=142091 pos=4716
+  US_s3_002.parquet feat2_train: q=7749 pairs=173605 pos=5687
+  US_s3_002.parquet 33s 2.25GB
+  US_s3_003.parquet feat2_val: q=6275 pairs=140531 pos=4606
+  US_s3_003.parquet feat2_train: q=7845 pairs=175171 pos=5794
+  US_s3_003.parquet 31s 2.69GB
+  US_s3_004.parquet feat2_val: q=6359 pairs=142513 pos=4726
+  US_s3_004.parquet feat2_train: q=7874 pairs=176094 pos=5808
+  US_s3_004.parquet 27s 2.77GB
+  US_s3_005.parquet feat2_val: q=6311 pairs=141425 pos=4744
+  US_s3_005.parquet feat2_train: q=7814 pairs=175710 pos=5697
+  US_s3_005.parquet 25s 2.71GB
+  US_s3_006.parquet feat2_val: q=6396 pairs=143352 pos=4775
+  US_s3_006.parquet feat2_train: q=7766 pairs=174451 pos=5738
+  US_s3_006.parquet 23s 2.48GB
+  US_s3_007.parquet feat2_val: q=6339 pairs=142179 pos=4704
+  US_s3_007.parquet feat2_train: q=7896 pairs=177540 pos=5833
+  US_s3_007.parquet 22s 3.05GB
+  US_s3_008.parquet feat2_val: q=6311 pairs=141816 pos=4660
+  US_s3_008.parquet feat2_train: q=7802 pairs=174243 pos=5861
+  US_s3_008.parquet 24s 2.35GB
+  US_s3_009.parquet feat2_val: q=6244 pairs=140113 pos=4683
+  US_s3_009.parquet feat2_train: q=7825 pairs=175239 pos=5824
+  US_s3_009.parquet 55s 2.96GB
+  US_s3_010.parquet feat2_val: q=6209 pairs=139106 pos=4586
+  US_s3_010.parquet feat2_train: q=7912 pairs=177258 pos=5870
+  US_s3_010.parquet 44s 2.29GB
+  US_s3_011.parquet feat2_val: q=6371 pairs=143017 pos=4743
+  US_s3_011.parquet feat2_train: q=7873 pairs=176253 pos=5851
+  US_s3_011.parquet 32s 2.32GB
+  US_s3_012.parquet feat2_val: q=4379 pairs=98375 pos=3270
+  US_s3_012.parquet feat2_train: q=5318 pairs=119034 pos=3929
+  US_s3_012.parquet 28s 2.23GB
+  US_syn_000.parquet feat2_val: q=25128 pairs=615190 pos=0
+  US_syn_000.parquet feat2_train: q=31147 pairs=761904 pos=0
+  US_syn_000.parquet 54s 2.46GB
+build done

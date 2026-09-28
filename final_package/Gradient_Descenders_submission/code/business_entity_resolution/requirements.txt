@@ -1,0 +1,9 @@
+# Python 3.12.1 (64-bit). All libraries are open source (MIT / BSD / Apache-2.0). No pretrained models are used.
+polars==1.44.2
+pyarrow==23.0.1
+numpy==2.4.1
+numba==0.64.0
+lightgbm==4.7.0
+rapidfuzz==3.14.6
+Unidecode==1.4.0
+psutil==5.9.8

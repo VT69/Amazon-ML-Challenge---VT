@@ -11,7 +11,8 @@ from evalf import assign, macro_f05, macro_f05_testlike
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--tag", required=True); ap.add_argument("--t", type=float, required=True)
-ap.add_argument("--note", default=""); ap.add_argument("--t-country", default="", help='e.g. "France=0.9,India=0.8"'); ap.add_argument("--val-tag", default=None); ap.add_argument("--cand", default="c1")
+ap.add_argument("--note", default=""); ap.add_argument("--t-country", default="", help='e.g. "France=0.9,India=0.8"'); ap.add_argument("--rule", default="", help="cluster rule set from rules.RULESETS");
+ap.add_argument("--empty-country", default="", help="DIAGNOSTIC: predict no matches for this country's S1s"); ap.add_argument("--val-tag", default=None); ap.add_argument("--cand", default="c1")
 a = ap.parse_args()
 SUBS = os.path.join(ROOT, "submissions"); CACHE = os.path.join(SUBS, "_cache"); os.makedirs(CACHE, exist_ok=True)
 TEST_DIR = os.path.join(ROOT, "student_resource", "dataset", "test")
@@ -19,7 +20,7 @@ TEST_DIR = os.path.join(ROOT, "student_resource", "dataset", "test")
 # ---- version folder
 nums = [int(os.path.basename(d)[1:4]) for d in glob.glob(os.path.join(SUBS, "v[0-9][0-9][0-9]_*"))]
 ver = f"v{(max(nums) + 1 if nums else 1):03d}"
-name = f"{ver}_{a.tag}_t{a.t:g}" + "".join(f"_{kv.replace('=', '')}" for kv in a.t_country.split(",") if kv)
+name = f"{ver}_{a.tag}_t{a.t:g}" + "".join(f"_{kv.replace('=', '')}" for kv in a.t_country.split(",") if kv) + (f"_EMPTY{a.empty_country}" if a.empty_country else "") + (f"_{a.rule}" if a.rule else "")
 vd = os.path.join(SUBS, name); os.makedirs(vd)
 
 # ---- matching_results.tsv: every test S1 exactly once, each S2/S3 record linked to its best S1 if prob >= t
@@ -30,7 +31,16 @@ best = pl.concat([pl.read_parquet(f, columns=["rid", "s1", "prob"]).sort("prob",
                   for f in sorted(glob.glob(f"{PQ}/pred_test_{a.tag}/*.parquet"))])
 tc = {k: float(v) for k, v in (kv.split("=") for kv in a.t_country.split(",") if kv)}
 thr = pl.col("country").replace_strict(tc, default=a.t, return_dtype=pl.Float64) if tc else pl.lit(a.t)
-links = best.filter(pl.col("prob") >= thr).select("rid", "s1")
+links = best.filter(pl.col("prob") >= thr)
+if a.rule:
+    import rules
+    B = rules.test_frame(a.tag)
+    links, rule_stats = rules.decide(B, thr, **rules.RULESETS[a.rule]); del B
+    print("rule", a.rule, rule_stats, flush=True)
+    links = links.join(best.select("rid", "country"), on="rid")
+if a.empty_country:
+    links = links.filter(pl.col("country") != a.empty_country)
+links = links.select("rid", "s1")
 grp = links.sort("rid").group_by("s1").agg(pl.col("rid").str.join(",").alias("matched_entity_ids")).rename({"s1": "source1_entity_id"})
 M = s1.join(grp, on="source1_entity_id", how="left")
 M.write_csv(os.path.join(vd, "matching_results.tsv"), separator="\t", null_value="", quote_style="never")
@@ -91,7 +101,7 @@ stats = dict(n_s1=M.height, n_s1_with_match=int(M["matched_entity_ids"].is_not_n
              n_queries=best.height)
 git = subprocess.run(["git", "-C", ROOT, "rev-parse", "--short", "HEAD"], capture_output=True, text=True).stdout.strip()
 man = dict(version=ver, name=name, created=datetime.datetime.now().isoformat(timespec="seconds"), model=f"lgb_{a.tag}",
-           threshold=a.t, threshold_by_country=a.t_country, candidates=a.cand, note=a.note, validator=status, local_val_f05=val, stats=stats, git_head=git)
+           threshold=a.t, threshold_by_country=a.t_country, rule=a.rule, candidates=a.cand, note=a.note, validator=status, local_val_f05=val, stats=stats, git_head=git)
 json.dump(man, open(os.path.join(vd, "manifest.json"), "w"), indent=2)
 
 idx = os.path.join(SUBS, "INDEX.md")

@@ -1,0 +1,25 @@
+India S1 side 16 s 0.87GB
+  India_s3_004.parquet pairs=5753992 213s 2.03GB
+  India_s3_005.parquet pairs=5752518 194s 2.07GB
+  India_s3_006.parquet pairs=5752892 180s 2.08GB
+  India_s3_007.parquet pairs=5750214 196s 2.07GB
+  India_s3_008.parquet pairs=5754194 161s 2.11GB
+  India_s3_009.parquet pairs=3564685 94s 1.81GB
+US S1 side 9 s 1.72GB
+  US_s2_000.parquet pairs=5434145 150s 2.19GB
+  US_s2_001.parquet pairs=5436624 149s 1.87GB
+  US_s2_002.parquet pairs=5437074 151s 1.90GB
+  US_s2_003.parquet pairs=5436564 145s 1.92GB
+  US_s2_004.parquet pairs=5434095 148s 1.90GB
+  US_s2_005.parquet pairs=5433942 148s 1.91GB
+  US_s2_006.parquet pairs=5438870 145s 1.89GB
+  US_s2_007.parquet pairs=2638722 74s 1.58GB
+  US_s3_000.parquet pairs=5415386 146s 1.88GB
+  US_s3_001.parquet pairs=5415342 145s 1.92GB
+  US_s3_002.parquet pairs=5413399 142s 1.89GB
+  US_s3_003.parquet pairs=5418714 142s 1.90GB
+  US_s3_004.parquet pairs=5413583 146s 1.91GB
+  US_s3_005.parquet pairs=5412670 145s 1.89GB
+  US_s3_006.parquet pairs=5413766 142s 1.91GB
+  US_s3_007.parquet pairs=4238459 110s 1.76GB
+done

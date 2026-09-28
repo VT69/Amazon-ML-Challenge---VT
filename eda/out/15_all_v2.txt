@@ -1,14 +1,31 @@
-[11:33:11] waiting for synthetic generation
-[11:36:23] building v2 features (train + test-like validation)
-[12:10:19] token log-odds for v2 features
-[12:14:47] training all_v2 (full quality)
+train (8492364, 100) pos 0.027772243394183292 | val (6843892, 100) 3.74GB
+Training until validation scores don't improve for 60 rounds
+[25]	valid_0's binary_logloss: 0.0134205
+[50]	valid_0's binary_logloss: 0.00616044
+[75]	valid_0's binary_logloss: 0.00472632
+[100]	valid_0's binary_logloss: 0.00431909
+[125]	valid_0's binary_logloss: 0.00412474
+[150]	valid_0's binary_logloss: 0.00402188
+[175]	valid_0's binary_logloss: 0.00395838
+[200]	valid_0's binary_logloss: 0.00390484
+[225]	valid_0's binary_logloss: 0.00386616
+[250]	valid_0's binary_logloss: 0.00384452
+[275]	valid_0's binary_logloss: 0.00381999
+[300]	valid_0's binary_logloss: 0.00379809
+[325]	valid_0's binary_logloss: 0.00378338
+[350]	valid_0's binary_logloss: 0.00377331
+[375]	valid_0's binary_logloss: 0.00376368
+[400]	valid_0's binary_logloss: 0.00376028
+[425]	valid_0's binary_logloss: 0.00375698
+[450]	valid_0's binary_logloss: 0.00375374
+[475]	valid_0's binary_logloss: 0.0037538
+[500]	valid_0's binary_logloss: 0.00375629
+[525]	valid_0's binary_logloss: 0.00375629
+Early stopping, best iteration is:
+[481]	valid_0's binary_logloss: 0.00375177
+trained 1410 s, best iter 481 0.90GB
 top features: [('p_score_rk', 2329), ('p_rank', 1625), ('p_score_gapmax', 1419), ('nm_mindiff', 1175), ('te_extra_min', 341), ('aw_cq_gapmax', 210), ('n3_cos_gapmax', 119), ('aw_ns', 117), ('te_extra_sum', 52), ('s_nc_dup', 50), ('nm_first_eq', 44), ('f_rank', 41), ('g_num_s1_frac', 36), ('aw_extra', 33), ('aw_cos', 29), ('aw_cq', 26), ('nm_miss', 26), ('n_jw', 24), ('aw_cq_rk', 23), ('g_num_twin_frac', 22), ('n3_cos_rk', 19), ('nm_near', 16), ('aw_cd', 16), ('q_rawlen', 16), ('g_num_twin', 15), ('n_pr', 14), ('g_n', 14), ('nw_cos_gapmax', 14), ('s_rawlen', 13), ('num_cq', 13)]
 threshold sweep (t, macroF0.5): [(0.05, 0.97052), (0.1, 0.97713), (0.2, 0.98136), (0.3, 0.98261), (0.4, 0.98271), (0.5, 0.98212), (0.6, 0.98124), (0.7, 0.97952), (0.8, 0.97747), (0.85, 0.9754), (0.9, 0.97158), (0.95, 0.9627)]
 sweep (restricted): [(0.05, 0.97052), (0.1, 0.97713), (0.2, 0.98136), (0.3, 0.98261), (0.4, 0.98271), (0.5, 0.98212), (0.6, 0.98124), (0.7, 0.97952), (0.8, 0.97747), (0.85, 0.9754), (0.9, 0.97158), (0.95, 0.9627)]
 US: F0.5=0.9845  singletons=0.9984  non-singletons=0.9837  n=33415
 India: F0.5=0.9799  singletons=0.9959  non-singletons=0.9790  n=22041
-[12:50:57] scoring test with all_v2
-[16:57:49] v2 submissions written
-| v009 | v009_all_v2_t0.7 | lgb_all_v2 | 0.7 | US 0.98173, India 0.97616, testlike 0.97879 | 1637938 | 5890500 | PASS | v2: synthetic sibling clusters + group features + full-quality LGB | |
-| v010 | v010_all_v2_t0.8 | lgb_all_v2 | 0.8 | India 0.97394, US 0.9798, testlike 0.97695 | 1634306 | 5813328 | PASS | v2: synthetic sibling clusters + group features + full-quality LGB | |
-| v011 | v011_all_v2_t0.9 | lgb_all_v2 | 0.9 | US 0.97468, India 0.96688, testlike 0.97124 | 1627973 | 5681880 | PASS | v2: synthetic sibling clusters + group features + full-quality LGB | |

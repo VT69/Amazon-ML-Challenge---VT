@@ -57,3 +57,6 @@ all candidates); train = 25% of queries in folds 1..5; token log-odds from folds
   the leaderboard is the only reliable signal for decision thresholds.
 | 09-26 | all_v1 t=0.7 / 0.8 / 0.9 | public LB | 0.961 / 0.963 / 0.961 | threshold curve peaks at t=0.8; thresholds alone top out ~0.963 |
 | 09-26 | all_v1 t=0.8, France 0.9 / 0.7 | public LB | 0.963 / 0.962 | France threshold is not the lever; LB rank-50 cutoff = 0.985 |
+| 09-26 | all_v2 (synthetic sibling clusters + group feats, full LGB) | test-like val (fold 0 + 41.9k synthetic look-alikes) | 0.9827 @ t=0.4 (v1 on same set: 0.9329 @ 0.4, 0.9442 @ 0.8) | synthetic look-alikes linked @0.8: v1 11,209 -> v2 274 |
+| 09-26 | all_v2 t=0.3/0.4/0.5/0.7/0.8/0.9 | public LB | 0.939/0.945/0.949/0.956/0.958/0.958 | WORSE than v1 (0.963): synthetic decoys + group feats do not match the real test; test-like val misled |
+| 09-27 | all_v3 (full-quality LGB, v1 features) t=0.8 France 0.9 | public LB | 0.96423 | FINAL/BEST. v017 (cluster rules) 0.96214 |
